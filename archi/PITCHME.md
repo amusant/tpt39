@@ -6,6 +6,7 @@
 +++?image=assets/simd3.svg&size=auto 90%
 ---
 ### Example Heterogeneous SoCs
++++?image=assets/acecontext.svg&size=auto 90%
 ---
 ### Example Heterogeneous SoCs
 ---
@@ -14,8 +15,12 @@
 ### Example Heterogeneous SoCs
 ---
 ### Recap : Memory Hierarchy
++++?image=assets/memory_hier.svg&size=auto 90%
 ---
 ### Recap : Memory Hierarchy
++++?image=assets/mmu.svg&size=auto 90%
+<!-- .slide: data-background-transition="none" -->
++++?image=assets/mmu1.svg&size=auto 90%
 ---
 ### Recap : Memory Hierarchy
 ---
@@ -37,7 +42,7 @@
 `$$speedup= \frac{1}{S+\frac{P}{N}}$$` 
 * S:Fraction of the application that is serial.
 * P:Fraction of the application that is parallelizable. 
-* N Number of processors.
+* N Processor Speedup.
 ---
 ### GPU Architecture
 ---
