@@ -1,7 +1,7 @@
 ### Accelerator Design with OpenCL
 ##### (Athens Week 19-24 March, 2018) 
 ---
-### Prerequisites
+### prerequisites
 
 * Computer Archietcture
 * VLSI
