@@ -30,7 +30,7 @@
 
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
 @[60](Build Program)
-+++?code=ocl_syntax/src/&lang=clBuildProgram.c&title=clBuildProgram
++++?code=ocl_syntax/src/clBuildProgram.c&lang=c&title=clBuildProgram
 
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
 @[61](Create Kernel!! Finally gettiing down to buisness)
