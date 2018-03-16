@@ -46,7 +46,7 @@ There will be a multiple-choice quiz on friday. (10)
 
 ---
 
-+++?image=assets/FF_WV.svg&size=auto 90%
++++?image=assets/FF_WV.png&size=auto 90%
 <!-- .slide: data-background-transition="none" -->
 
 ---
@@ -71,4 +71,4 @@ There will be a multiple-choice quiz on friday. (10)
 | col 3 is | right-aligned |    $1 |
     
 +++
-+++?code=assets/hello_world.c&lang=c&title=Source: Golang File
++++?code=assets/hello_world.c&lang=c&title=Hello World
