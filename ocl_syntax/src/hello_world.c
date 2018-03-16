@@ -10,31 +10,6 @@ const char *opencl =
      " printf(\"Hello, World!\\n\");\n"
      "}\n";
 
-unsigned char ** read_file(const char *name) {
-  size_t size;
-  unsigned char **output=(unsigned char **)malloc(sizeof(unsigned char *));
-  FILE* fp = fopen(name, "rb");
-  if (!fp) {
-    printf("no such file:%s",name);
-    exit(-1);
-  }
-
-  fseek(fp, 0, SEEK_END);
-  size = ftell(fp);
-  fseek(fp, 0, SEEK_SET);
-
-  *output = (unsigned char *)malloc(size);
-  if (!*output) {
-    fclose(fp);
-    printf("mem allocate failure:%s",name);
-    exit(-1);
-  }
-
-  if(!fread(*output, size, 1, fp)) printf("failed to read file\n");
-  fclose(fp);
-  printf("%s",*output);
-  return output;
-}
 
 
 void callback(const char *buffer, size_t length, size_t final, void *user_data)
@@ -72,9 +47,7 @@ int main()
      clGetDeviceIDs(platform, CL_DEVICE_TYPE_GPU, 1, &device, NULL);
      context = clCreateContext(context_properties, 1, &device, NULL, NULL, NULL);
      queue = clCreateCommandQueue(context, device, 0, NULL);
-     unsigned char **opencl_program=read_file("hello_world.cl");
-     program = clCreateProgramWithSource(context, 1, (const char **)opencl_program, NULL, NULL);
-     //program = clCreateProgramWithSource(context, 1, &opencl, NULL, NULL);
+     program = clCreateProgramWithSource(context, 1, &opencl, NULL, NULL);
      if (program == NULL)
 	{
          printf("Program creation failed\n");
