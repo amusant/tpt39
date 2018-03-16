@@ -46,7 +46,7 @@ There will be a multiple-choice quiz on friday. (10)
 
 ---
 
-+++?image=assets/FF_WV.png
++++?image=assets/FF_WV.svg&size=auto 90%
 <!-- .slide: data-background-transition="none" -->
 
 ---
