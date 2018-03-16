@@ -23,9 +23,17 @@
 #HSLIDE?image=assets/mmu1.svg
 ---
 ### Recap : Memory Hierarchy
-?image=assets/vm_path.svg
----
+---?image=assets/vm_path.svg
 ### Recap : Memory Hierarchy
+- Memory contains up-to-date data, and cache has a copy
+(cache line) : CLEAN
+- Cache has up-to-date data, and it must be written back to
+memory : DIRTY |
+- Memory contains up-to-date data, and cache does not :
+INVALID |
+- Memory does not have up-to-date data, cache does not :
+INVALID |
+- INVALID implies a cache miss. |
 ---
 ### Recap : Memory Hierarchy
 ---
