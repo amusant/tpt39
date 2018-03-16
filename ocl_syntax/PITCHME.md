@@ -1,6 +1,7 @@
 ### Accelerator Design with OpenCL
 ##### (Athens Week 19-24 March, 2018) 
 
++++?image=assets/oclflow.svg&size=auto 90%
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
 @[7-11](The OpenCL kernel.)
 @[37](Get Platform Ids.)
@@ -34,11 +35,11 @@
 
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
 @[61](Create Kernel!! Finally gettiing down to buisness)
-+++?code=ocl_syntax/src/&lang=clCreateKernel.c&title=clCreateKernel
++++?code=ocl_syntax/src/clCreateKernel.c&lang=c&title=clCreateKernel
 
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
 @[62](Enqueue the Kernel in the queue)
-+++?code=ocl_syntax/src/&lang=clEnqueueTask.c&title=clEnqueueTask
++++?code=ocl_syntax/src/clEnqueueTask.c&lang=c&title=clEnqueueTask
 
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
 @[64-68](Tear Down)
