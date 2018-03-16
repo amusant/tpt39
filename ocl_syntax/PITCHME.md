@@ -3,7 +3,7 @@
 
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
 @[7-11](The OpenCL kernel.)
-@[27-28](Get Platform Info.)
-+++?code=ocl_syntax/src/clGetPlatformInfo&lang=c&title=clGetPlatformInfo
+@[37-44](Get Platform Info.)
++++?code=ocl_syntax/src/clGetPlatformInfo.c&lang=c&title=clGetPlatformInfo
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
 @[24](Declaring device.)
