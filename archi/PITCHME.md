@@ -33,7 +33,8 @@
 ---
 ### Parallelism: Pipeline
 ---
-### Parallelism: Amdahl's Law
+@title[Parallelism: Amdahl's Law]
+`$$speedup= \frac{1}{S+\frac{P}{N}}$$`
 ---
 ### GPU Architecture
 ---
