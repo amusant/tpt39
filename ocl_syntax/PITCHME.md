@@ -13,7 +13,7 @@
 
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
 @[49](Get Device Ids)
-+++?code=ocl_syntax/src/clGetDeviceIDs.c&lang=c&title=clGetPlatformIDs
++++?code=ocl_syntax/src/clGetDeviceIDs.c&lang=c&title=clGetDeviceIDs
 
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
 @[50](Create Context)
