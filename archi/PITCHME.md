@@ -24,6 +24,7 @@
 ---
 ### Recap : Memory Hierarchy
 ---?image=assets/vm_path.svg
+---
 ### Recap : Memory Hierarchy
 - Memory contains up-to-date data, and cache has a copy
 (cache line) : CLEAN
