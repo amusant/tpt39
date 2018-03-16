@@ -35,6 +35,9 @@
 ---
 ### Parallelism: Amdahl's Law
 `$$speedup= \frac{1}{S+\frac{P}{N}}$$` 
+* S:Fraction of the application that is serial.
+* P:Fraction of the application that is parallelizable. 
+* N Number of processors.
 ---
 ### GPU Architecture
 ---
