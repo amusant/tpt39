@@ -18,11 +18,12 @@
 +++?image=assets/memory_hier.svg&size=auto 90%
 ---
 ### Recap : Memory Hierarchy
-#HSLIDE?image=assets/mmu.png
+#HSLIDE?image=assets/mmu.svg
 <!-- .slide: data-background-transition="none" -->
-#HSLIDE?image=assets/mmu1.png
+#HSLIDE?image=assets/mmu1.svg
 ---
 ### Recap : Memory Hierarchy
+?image=assets/vm_path.svg
 ---
 ### Recap : Memory Hierarchy
 ---
