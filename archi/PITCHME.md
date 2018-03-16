@@ -18,9 +18,9 @@
 +++?image=assets/memory_hier.svg&size=auto 90%
 ---
 ### Recap : Memory Hierarchy
-+++?image=assets/mmu.svg
+#VSLIDE?image=assets/mmu.svg
 <!-- .slide: data-background-transition="none" -->
-+++?image=assets/mmu1.svg
+#VSLIDE?image=assets/mmu1.svg
 ---
 ### Recap : Memory Hierarchy
 ---
