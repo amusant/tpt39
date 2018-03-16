@@ -33,9 +33,8 @@
 ---
 ### Parallelism: Pipeline
 ---
-@title[Parallelism: Amdahl's Law]
-`$$speedup= \frac{1}{S}$$` 
-`$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$`
+### Parallelism: Amdahl's Law
+`$$speedup= \frac{1}{S+\frac{P}{N}}$$` 
 ---
 ### GPU Architecture
 ---
