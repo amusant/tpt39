@@ -35,19 +35,23 @@ int main()
      cl_kernel kernel;
 
      clGetPlatformIDs(2, &platform, NULL);
-     clGetPlatformInfo(platform, CL_PLATFORM_NAME, STRING_BUFFER_LEN, char_buffer, NULL);
-     printf("hey !\n");
+     clGetPlatformInfo(platform, CL_PLATFORM_NAME, 
+						STRING_BUFFER_LEN, char_buffer, NULL);
      printf("%-40s = %s\n", "CL_PLATFORM_NAME", char_buffer);
-     clGetPlatformInfo(platform, CL_PLATFORM_VENDOR, STRING_BUFFER_LEN, char_buffer, NULL);
+     clGetPlatformInfo(platform, CL_PLATFORM_VENDOR, 
+						STRING_BUFFER_LEN, char_buffer, NULL);
      printf("%-40s = %s\n", "CL_PLATFORM_VENDOR ", char_buffer);
-     clGetPlatformInfo(platform, CL_PLATFORM_VERSION, STRING_BUFFER_LEN, char_buffer, NULL);
+     clGetPlatformInfo(platform, CL_PLATFORM_VERSION, 
+						STRING_BUFFER_LEN, char_buffer, NULL);
      printf("%-40s = %s\n\n", "CL_PLATFORM_VERSION ", char_buffer);
 
      context_properties[1] = (cl_context_properties)platform;
      clGetDeviceIDs(platform, CL_DEVICE_TYPE_GPU, 1, &device, NULL);
-     context = clCreateContext(context_properties, 1, &device, NULL, NULL, NULL);
+     context = clCreateContext(context_properties, 1, &device, 
+								NULL, NULL, NULL);
      queue = clCreateCommandQueue(context, device, 0, NULL);
-     program = clCreateProgramWithSource(context, 1, &opencl, NULL, NULL);
+     program = clCreateProgramWithSource(context, 1, &opencl, 
+										NULL, NULL);
      if (program == NULL)
 	{
          printf("Program creation failed\n");
