@@ -44,3 +44,7 @@
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
 @[64-68](Tear Down)
 https://www.khronos.org/registry/OpenCL/sdk/1.2/
+---
+#### References
+https://www.khronos.org/assets/uploads/developers/library/2012-pan-pacific-road-show-June/OpenCL-Details-Taiwan_June-2012.pdf
+https://www.khronos.org/registry/OpenCL/sdk/1.2/
