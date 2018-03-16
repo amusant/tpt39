@@ -71,6 +71,4 @@ There will be a multiple-choice quiz on friday. (10)
 | col 3 is | right-aligned |    $1 |
     
 +++
-### Code Block Delimiter
-assets/helllo_world.c
-### Source File Not Found
++++?code=assets/hello_world.c&lang=c&title=Source: Golang File
