@@ -203,7 +203,7 @@ draw it on board
 +++?image=assets/fig/smt.svg&size=auto 90%
 ---
 ### Reacp: Multi-Threading
-+++?image=assets/fig/mt.svg&size=auto 1%
++++?image=assets/fig/mt.svg&size=auto 90%
 ---
 
 
