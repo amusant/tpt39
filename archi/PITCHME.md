@@ -32,7 +32,8 @@ draw it on board
 - Get the average value of a vector |
 
 Is it a data parallel application ?
----### Pipeline
+---
+### Pipeline
 
 * e.g Car Assembly
 * Tasks must be  Independent of each other.
