@@ -86,8 +86,10 @@
 +++
 ### Principles
 
-- Provenance: <span style="font-size:0.6em">Always verify and cite the source of Information. |
-- CopyPaste: <span style="font-size:0.6em">Do not copy code from internet without understanding them. |
+- Provenance: <span style="font-size:0.4em">Always verify and cite the source of Information. |
+- CopyPaste: <span style="font-size:0.4em">Do not copy code/commands from forums without understanding them. |
+Note:
+to understand the context first
 
 ---
 
