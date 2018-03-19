@@ -86,16 +86,15 @@
 +++
 ### Principles
 
-* Provenance: Always verify and cite the source of Information.
-* Do not copy code from internet without understanding them.
+- Provenance: Always verify and cite the source of Information. |
+- Do not copy code from internet without understanding them.
 
 ---
 
 ### Evaluation
-<i class="fa fa-arrow-up" aria-hidden="true"> </i>
+<i class="fa fa-arrow-down" aria-hidden="true"> </i>
 * <span style="color:gray">Lab work. At the end of the week you should submit functional code. (10)</span>
-* 
-There will be a multiple-choice quiz on friday. (10)
+*  There will be a multiple-choice quiz on friday. (10)
 
 ---
 ### Let's Setup
