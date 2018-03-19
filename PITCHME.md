@@ -98,5 +98,8 @@
 
 ---
 ### Let's Setup
+* PCs in this lab  a405-xx.enst.fr 
+* you can change the defautlt language at the startup screen 
+
 
 ---
