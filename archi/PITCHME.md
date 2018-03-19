@@ -159,14 +159,14 @@ draw it on board
     * TLB acts as a cache for page table entries (PTE).
 ---
 ### Recap : Life of a Memory Request
----?image=assets/vm_path.svg
+---?image=assets/vm_path.svg&size=auto 90%
 ---
 
 ### Recap : Memory Hierarchy
 +++?image=assets/fig/memhier_mobile.svg&size=auto 90%
 +++?image=assets/fig/memhier_laptop.svg&size=auto 90%
-+++?image=assets/fig/memhier_dektop.svg&size=auto 90%
-+++?image=assets/fig/memhier_serve.svg&size=auto 90%
++++?image=assets/fig/memhier_desktop.svg&size=auto 90%
++++?image=assets/fig/memhier_server.svg&size=auto 90%
 
 +++?image=assets/simd.svg&size=auto 90%
 +++?image=assets/simd1.svg&size=auto 90%
