@@ -35,10 +35,21 @@ Is it a data parallel application ?
 ---
 ### Pipeline
 
-* e.g Car Assembly
-* Tasks must be  Independent of each other.
+* Parallelism in time.
+* each stage is dependent on the previous one.
+* e.g Car Assembly, Video Pipeline
 Note:
 draw it on board
+---
+#### quiz
+
+* What could be the disadvantages of pipeline ?
+
+---
+#### quiz
+
+* How to calculate the performance of a pipeline ?
+
 ---
 ### Parallelism: Amdahl's Law
 `$$speedup= \frac{1}{S+\frac{P}{N}}$$` 
@@ -46,6 +57,8 @@ draw it on board
 * P:Fraction of the application that is parallelizable. 
 * N Processor Speedup.
 ---
+#### quiz
+* Suppose that we want to enhance teh processor used for web serving. The new processor is 10 times faster on computation in the web serving application than the old processor. Assuming that the original processor is busy with computation 40% of the time and is waiting for I/0 60% of the time, what's the overall sppedup gained by incorporating enhancement?
 
 ### Recap: Computer Architecture
 
