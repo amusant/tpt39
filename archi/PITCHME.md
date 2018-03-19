@@ -160,7 +160,7 @@ draw it on board
 ---
 ### Recap : Life of a Memory Request
 ---?image=assets/vm_path.svg
-
+---
 
 ### Recap : Memory Hierarchy
 +++?image=assets/fig/memhier_mobile.svg&size=auto 90%
