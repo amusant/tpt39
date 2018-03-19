@@ -168,13 +168,45 @@ draw it on board
 +++?image=assets/fig/memhier_laptop.svg&size=auto 90%
 +++?image=assets/fig/memhier_desktop.svg&size=auto 90%
 +++?image=assets/fig/memhier_server.svg&size=auto 90%
-
+---
 ### Recap: Processors 
 +++?image=assets/simd.svg&size=auto 90%
 +++?image=assets/simd1.svg&size=auto 90%
 +++?image=assets/simd2.svg&size=auto 90%
 +++?image=assets/simd3.svg&size=auto 90%
 ---
+### Uniprocessor
++++?image=assets/fig/uniprocessor.svg&size=auto 90%
+---
+### Multiprocessor
++++?image=assets/fig/gpu_mimd.svg&size=auto 90%
+---
+### Multiprocessor: UMA
++++?image=assets/fig/uma.svg&size=auto 90%
+---
+### Multiprocessor: NUMA
++++?image=assets/fig/numa.svg&size=auto 90%
+---
+### Processor: VLIW
++++?image=assets/fig/vliw.svg&size=auto 90%
+---
+### Multi-Threading: Superscalar
++++?image=assets/fig/superscalar.svg&size=auto 90%
+---
+### Multi-Threading: Coarse-Grained
++++?image=assets/fig/coarse_mt.svg&size=auto 90%
+---
+### Multi-Threading: Fine-Grained
++++?image=assets/fig/fine_mt.svg&size=auto 90%
+---
+### Multi-Threading: Simultaneous
++++?image=assets/fig/smt.svg&size=auto 90%
+---
+### Reacp: Multi-Threading
++++?image=assets/fig/mt.svg&size=auto 90%
+---
+
+
 ### Example Heterogeneous SoCs
 +++?image=assets/acecontext.svg&size=auto 90%
 ---
