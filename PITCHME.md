@@ -86,8 +86,8 @@
 +++
 ### Principles
 
-- Provenance: Always verify and cite the source of Information. |
-- Do not copy code from internet without understanding them. |
+- <span style="font-size:0.6em">Provenance: Always verify and cite the source of Information. |
+- <span style="font-size:0.6em">Do not copy code from internet without understanding them. |
 
 ---
 
