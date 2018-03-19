@@ -206,38 +206,12 @@ draw it on board
 +++?image=assets/fig/mt.svg&size=auto 90%
 ---
 
+### GPU Architecture
++++?image=assets/fig/uniprocessor.svg&size=auto 90%
+---
 
 ### Example Heterogeneous SoCs
 +++?image=assets/acecontext.svg&size=auto 90%
----
-### Example Heterogeneous SoCs
----
-### Example Heterogeneous SoCs
----
-### Example Heterogeneous SoCs
----
-### Recap : Memory Hierarchy
-
-- Memory contains up-to-date data, and cache has a copy (cache line) : CLEAN |
-- Cache has up-to-date data, and it must be written back to memory : DIRTY |
-- Memory contains up-to-date data, and cache does not : INVALID |
-- Memory does not have up-to-date data, cache does not : INVALID |
-- INVALID implies a cache miss. |
-
----
-### Recap : Memory Hierarchy
----
-### Parallelism
----
-### Parallelism: Task Level
----
-### Parallelism: Thread Level
----
-### Parallelism: Data Level
----
-### Parallelism: Pipeline
----
-### GPU Architecture
 ---
 ### Domain Specific Architecture
 
