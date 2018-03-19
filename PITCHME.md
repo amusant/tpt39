@@ -10,7 +10,6 @@
 +++
 ### Prerequisites (Lab Work)
 
-*Makefile
 
 - Makefile 
 - Git |
