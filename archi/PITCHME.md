@@ -93,9 +93,52 @@ draw it on board
 * DRAM is the main performance bottleneck in a SoC.
 * DRAM response can come out of order, has high initial latency.
 ---
+# RECAP: Cache
++++?image=assets/opencl.svg&size=auto 90%
+---
 
+#RECAP: Cache: Cache Terminology
+* Memory contains up-to-date data, and cache has a copy  (cache line): CLEAN
+* Cache has up-to-date data, and it must be written back to memory: DIRTY
+* Memory contains up-to-date data, and cache does not : INVALID
+* Memory does not have up-to-date data, cache does not : INVALID
+---
 
+#RECAP Cache Terminology
 
+* HIT: Data found in Cache.
+* MISS: Data is not in the cache.
+* EVICT: A clean cache line is replaced due to a new allocation.
+
+---
+
+#RECAP  Cache Organization (4 Way)
+
++++?image=assets/cache.svg&size=auto 90%
+---
+#RECAP  Cache Policies
+
+* Allocation 
+  * Write Allocate : On a Write miss replace the cache line.
+  * Read Allocate : On a read miss replace the cache line.
+* Update
+  * Write Through : A write updates both the cache and the main  memory.
+  * Write Back: Write updates the cache only (marked as dirty). Main memory is updated, when the line is evicted, cache is flushed.
+
+---
+
+#RECAP: Cache Coherence
+* Case 1. Memory update by another master. Cached copy is out of date.
+* Case 2. For write back cache, when master writes to cache, main memory is out of date.
+* Cache Coherency Protocols
+	* MEI (Modified, Exclusive, Invalid)
+	* MESI (Modified, Exclusive, Shared Invalid)
+	* MOESI (Modified, Owned, Exclusive, Shared Invalid)
+* Goals
+	* Cache to Cache copy of clean data.
+	* Cache to Cache move of Dirty data without accessing external memory.
+
+---
 +++?image=assets/simd.svg&size=auto 90%
 +++?image=assets/simd1.svg&size=auto 90%
 +++?image=assets/simd2.svg&size=auto 90%
