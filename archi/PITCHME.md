@@ -206,10 +206,14 @@ draw it on board
 +++?image=assets/fig/mt.svg&size=auto 90%
 ---
 
-### GPU Architecture
+### GPU Architecture : Uniprocessor
 +++?image=assets/fig/uniprocessor.svg&size=auto 90%
+---
+### GPU Architecture : SIMD
 +++?image=assets/fig/gpu_simd1.svg&size=auto 90%
+### GPU Architecture : SIMD
 +++?image=assets/fig/gpu_simd2.svg&size=auto 90%
+### GPU Architecture : SIMD
 +++?image=assets/fig/gpu_simd3.svg&size=auto 90%
 ---
 
