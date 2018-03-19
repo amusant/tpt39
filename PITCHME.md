@@ -33,15 +33,16 @@
   </tr>
   <tr>
     <td>19/03 10:00</td>
-    <td>Introduction/Setup</td>
+    <td><span style="font-size:0.6em; color:gray">Introduction/Setup</td>
+    <td>43</td>
   </tr>
   <tr class="fragment">
     <td>19/03 13:30</td>
-    <td>GPU/SoC Architecture Recap</td>
+    <td><span style="font-size:0.6em; color:gray">GPU/SoC Architecture Recap</td>
   </tr>
   <tr class="fragment">
     <td>20/03 8:30</td>
-    <td>Lab Work With ARM MALI / ODROID XU4</td>
+    <td><span style="font-size:0.6em; color:gray">Lab Work With ARM MALI / ODROID XU4</td>
   </tr>
 </table>
 <!---
@@ -59,7 +60,7 @@
 | 23/03 8:30	| Project: Video Filtering		|
 | 23/03 13:30	| Quiz & Corrections		|
 +++
---->
+-->
 ### Principles
 
 * Provenance: Always verify and cite the source of Information.
