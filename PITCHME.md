@@ -83,7 +83,7 @@
     <td><span style="font-size:0.6em; color:gray">Quiz & Corrections</td>
   </tr>
 </table>
-<!---
+<!--
 ### Course Plan
 | Session       | Topic           		|
 | ------------- |:-------------:		|
