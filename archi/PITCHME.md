@@ -58,7 +58,7 @@ draw it on board
 * N Processor Speedup.
 ---
 #### quiz
-* Suppose that we want to enhance teh processor used for web serving. The new processor is 10 times faster on computation in the web serving application than the old processor. Assuming that the original processor is busy with computation 40% of the time and is waiting for I/0 60% of the time, what's the overall sppedup gained by incorporating enhancement?
+* Suppose that we want to enhance the processor used for web serving. The new processor is 10 times faster on computation in the web serving application than the old processor. Assuming that the original processor is busy with computation 40% of the time and is waiting for I/0 60% of the time, what's the overall sppedup gained by incorporating enhancement?
 ---
 ### Recap: Computer Architecture
 
@@ -77,8 +77,8 @@ draw it on board
 ### DRAM Operation: A single DRAM Bank
 +++?image=assets/fig/ddr_bank.svg&size=auto 90%
 ---
-### DRAM Operation: DRAM Operation
-+++?image=assets/fig/ddr.svg&size=auto 90%
+### DRAM Operation: Banks 
++++?image=assets/fig/ddr.svg&size=auto 70%
 ---
 ### DRAM Operation: DRAM Operation
 * READ: Activate (open the row)-> Read -> Precharge (close).
