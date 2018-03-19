@@ -14,7 +14,7 @@ pipeline: car assembly.
 ---
 ### Task Parallelism
 
-* A process in brok into different tasks.
+* A process in broken into different tasks.
 * If the tasks are independent they can be run on parallel.
 * e.g Car Assembly
 Note:
@@ -32,7 +32,7 @@ draw it on board
 - Get the average value of a vector |
 
 Is it a data parallel application ?
-### Pipeline
+---### Pipeline
 
 * e.g Car Assembly
 * Tasks must be  Independent of each other.
