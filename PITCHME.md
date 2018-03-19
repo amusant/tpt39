@@ -23,6 +23,28 @@
 
 +++
 
+
+@title[Piecemeal Tables]
+
+<table>
+  <tr>
+    <th>Session</th>
+    <th>Topic</th>
+  </tr>
+  <tr>
+    <td>19/03 10:00</td>
+    <td>Introduction/Setup</td>
+  </tr>
+  <tr class="fragment">
+    <td>19/03 13:30</td>
+    <td>GPU/SoC Architecture Recap</td>
+  </tr>
+  <tr class="fragment">
+    <td>20/03 8:30</td>
+    <td>Lab Work With ARM MALI / ODROID XU4</td>
+  </tr>
+</table>
+<!---
 ### Course Plan
 | Session       | Topic           		|
 | ------------- |:-------------:		|
@@ -37,7 +59,7 @@
 | 23/03 8:30	| Project: Video Filtering		|
 | 23/03 13:30	| Quiz & Corrections		|
 +++
-
+--->
 ### Principles
 
 * Provenance: Always verify and cite the source of Information.
