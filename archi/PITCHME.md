@@ -59,7 +59,7 @@ draw it on board
 ---
 #### quiz
 * Suppose that we want to enhance teh processor used for web serving. The new processor is 10 times faster on computation in the web serving application than the old processor. Assuming that the original processor is busy with computation 40% of the time and is waiting for I/0 60% of the time, what's the overall sppedup gained by incorporating enhancement?
-
+---
 ### Recap: Computer Architecture
 
 - Processor |
