@@ -10,7 +10,12 @@
 +++
 ### Prerequisites (Lab Work)
 
+*Makefile
 
+- Makefile 
+- Git |
+- Linux Command Line  |
+- Python |
 
 
 
@@ -23,12 +28,18 @@
 +++
 
 ### Course Plan
-
-* Day 1: Introduction to OpenCL API, and Host Program. 
-* Day 2: Practical work with ARM MALI OpenCL SDK.
-* Day 3: Hands On experience:  Programming GPUs with ODROID XU4 Boards.
-* Day 4: Practical work with Intel FPGA OpenCL SDK.
-* DAY 5: Hands On Experience: Programming FPGAs with Cyclone V DE1SoC Boards. 
+| Session       | Topic           		|
+| ------------- |:-------------:		|
+| 19/03 10:00   | Introduction/Setup 	|
+| 19/03 13:30   | GPU/SoC Architecture Recap    |
+| 20/03 8:30	| Lab Work With ARM MALI / ODROID XU4      		|
+| 20/03 13:30	| Lab Work With ARM MALI / ODROID XU4      		|
+| 21/03 8:30	| Project: Video Filtering   					|
+| 21/03 13:30	| FPGA/SoC Architecture Recap   					|
+| 22/03 8:30	| Lab Work Altera DE1-SoC		|
+| 22/03 13:30	| Lab Work Altera DE1-SoC		|
+| 23/03 8:30	| Project: Video Filtering		|
+| 23/03 13:30	| Quiz & Corrections		|
 +++
 
 ### Principles
@@ -50,25 +61,3 @@ There will be a multiple-choice quiz on friday. (10)
 <!-- .slide: data-background-transition="none" -->
 
 ---
-<!--
-| Session       | Topic           		|
-| ------------- |:-------------:		|
-| 19/03 10:00   | Introduction/Setup 	|
-| 19/03 13:30   | GPU/SoC Architecture Recap    |
-| 20/03 8:30	| Lab Work With ARM MALI / ODROID XU4      		|
-| 20/03 13:30	| Lab Work With ARM MALI / ODROID XU4      		|
-| 21/03 8:30	| Project: Video Filtering   					|
-| 21/03 13:30	| FPGA/SoC Architecture Recap   					|
-| 22/03 8:30	| Lab Work Altera DE1-SoC		|
-| 22/03 13:30	| Lab Work Altera DE1-SoC		|
-| 23/03 8:30	| Project: Video Filtering		|
-| 23/03 13:30	| Quiz & Corrections		|
--->
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-    
-+++
-+++?code=assets/hello_world.c&lang=c&title=Hello World
