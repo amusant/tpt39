@@ -89,6 +89,7 @@
 - Provenance: <span style="font-size:0.4em">Always verify and cite the source of Information. |
 - CopyPaste: <span style="font-size:0.4em">Do not copy code/commands from forums without understanding them. |
 Note:
+no fake news
 to understand the context first
 
 ---

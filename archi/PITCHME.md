@@ -1,5 +1,64 @@
 ### Accelerator Design with OpenCL
 ##### (Athens Week 19-24 March, 2018) 
+
+### Parallelism
+
+- Task Parallelism |
+- Data Parallelism |
+- Pipeline
+
+Note:
+Task example car assembly
+Data Example Graphic render
+pipeline: car assembly.
+
+### Task Parallelism
+
+* A process in brok into different tasks.
+* If the tasks are independent they can be run on parallel.
+* e.g Car Assembly
+Note:
+draw it on board
+### Data Parallelism
+
+* Diffrent parts of data can be processed in parallel.
+* e.g vector addition
+
+Note:
+draw it on board
+#### quiz
+- Get the average value of a vector |
+
+Is it a data parallel application ?
+### Pipeline
+
+* e.g Car Assembly
+* Tasks must be  Independent of each other.
+Note:
+draw it on board
+---
+### Parallelism: Amdahl's Law
+`$$speedup= \frac{1}{S+\frac{P}{N}}$$` 
+* S:Fraction of the application that is serial.
+* P:Fraction of the application that is parallelizable. 
+* N Processor Speedup.
+---
+
+### Recap: Computer Architecture
+
+- Processor |
+- MMU |
+- Cache |
+- Main Memory (DDR) |
+---
+### Recap: Computer Architecture
+
+- Main Memory (DDR) 
+- Cache 
+- MMU 
+- Processor 
+---
+
 +++?image=assets/simd.svg&size=auto 90%
 +++?image=assets/simd1.svg&size=auto 90%
 +++?image=assets/simd2.svg&size=auto 90%
@@ -45,12 +104,6 @@
 ### Parallelism: Data Level
 ---
 ### Parallelism: Pipeline
----
-### Parallelism: Amdahl's Law
-`$$speedup= \frac{1}{S+\frac{P}{N}}$$` 
-* S:Fraction of the application that is serial.
-* P:Fraction of the application that is parallelizable. 
-* N Processor Speedup.
 ---
 ### GPU Architecture
 ---
