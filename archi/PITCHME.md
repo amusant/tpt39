@@ -185,7 +185,7 @@ draw it on board
 +++?image=assets/fig/uma.svg&size=auto 90%
 ---
 ### Multiprocessor: NUMA
-+++?image=assets/fig/numa.svg&size=auto 90%
++++?image=assets/fig/numa.svg&size=auto 70%
 ---
 ### Processor: VLIW
 +++?image=assets/fig/vliw.svg&size=auto 90%
