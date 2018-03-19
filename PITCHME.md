@@ -87,7 +87,7 @@
 ### Principles
 
 - Provenance: Always verify and cite the source of Information. |
-- Do not copy code from internet without understanding them.
+- Do not copy code from internet without understanding them. |
 
 ---
 
