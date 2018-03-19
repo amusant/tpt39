@@ -3,13 +3,15 @@
 ---
 ### prerequisites
 
-* Computer Archietcture
-* VLSI
-* C/C++
+<i class="fa fa-arrow-down" aria-hidden="true"> </i>
+- Computer Archietcture
+- VLSI |
+- C/C++ |
 
 +++
 ### Prerequisites (Lab Work)
 
+<i class="fa fa-arrow-down" aria-hidden="true"> </i>
 
 - Makefile 
 - Git |
@@ -19,11 +21,6 @@
 
 
 
-<span class="menu-title">Present Static Block</span>
-<i class="fa fa-arrow-down" aria-hidden="true"> </i>
-* Makefile
-* Git
-* Linux Basics
 +++
 
 ### Course Plan
