@@ -144,9 +144,9 @@ draw it on board
 
 ---
 ### Recap : MMU
-#HSLIDE?image=assets/mmu.svg
+#HSLIDE?image=assets/mmu.svg&size=auto 90%
 <!-- .slide: data-background-transition="none" -->
-#HSLIDE?image=assets/mmu1.svg
+#HSLIDE?image=assets/mmu1.svg&size=auto 90%
 ---
 
 ### Recap: MMu Operation
