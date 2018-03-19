@@ -22,9 +22,7 @@
 
 
 +++
-
-
-@title[Piecemeal Tables]
+### Course Plan
 
 <table>
   <tr>
@@ -34,7 +32,6 @@
   <tr>
     <td><span style="font-size:0.6em">19/03 10:00</td>
     <td><span style="font-size:0.6em; color:gray">Introduction/Setup</td>
-    <td>43</td>
   </tr>
   <tr class="fragment">
     <td><span style="font-size:0.6em">19/03 13:30</td>
@@ -55,6 +52,15 @@
   <tr class="fragment">
     <td><span style="font-size:0.6em">21/03 8:30</td>
     <td><span style="font-size:0.6em; color:gray">Project: Video Filtering</td>
+  </tr>
+</table>
++++
+### Course Plan
+
+<table>
+  <tr>
+    <th>Session</th>
+    <th>Topic</th>
   </tr>
   <tr class="fragment">
     <td><span style="font-size:0.6em">21/03 13:30</td>
@@ -93,6 +99,7 @@
 | 23/03 13:30	| Quiz & Corrections		|
 +++
 -->
++++
 ### Principles
 
 * Provenance: Always verify and cite the source of Information.
