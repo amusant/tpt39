@@ -163,11 +163,13 @@ draw it on board
 ---
 
 ### Recap : Memory Hierarchy
++++?image=assets/memory_hier.svg&size=auto 90%
 +++?image=assets/fig/memhier_mobile.svg&size=auto 90%
 +++?image=assets/fig/memhier_laptop.svg&size=auto 90%
 +++?image=assets/fig/memhier_desktop.svg&size=auto 90%
 +++?image=assets/fig/memhier_server.svg&size=auto 90%
 
+### Recap: Processors 
 +++?image=assets/simd.svg&size=auto 90%
 +++?image=assets/simd1.svg&size=auto 90%
 +++?image=assets/simd2.svg&size=auto 90%
