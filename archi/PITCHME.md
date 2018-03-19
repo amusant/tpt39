@@ -74,6 +74,27 @@ draw it on board
 - MMU 
 - Processor 
 ---
+### DRAM Operation: A single DRAM Bank
++++?image=assets/fig/ddr_bank.svg&size=auto 90%
+---
+### DRAM Operation: DRAM Operation
++++?image=assets/fig/ddr.svg&size=auto 90%
+---
+### DRAM Operation: DRAM Operation
+* READ: Activate (open the row)-> Read -> Precharge (close).
+* WRITE: Activate (open the row)-> Write -> Precharge (close).
+* REFRESH: READ-> WRITE back.
+---
+### DRAM Traffic TCL,TRCD,TRP
++++?image=assets/fig/dram.svg&size=auto 90%
+---
+
+### DRAM Traffic
+* DRAM is the main performance bottleneck in a SoC.
+* DRAM response can come out of order, has high initial latency.
+---
+
+
 
 +++?image=assets/simd.svg&size=auto 90%
 +++?image=assets/simd1.svg&size=auto 90%
