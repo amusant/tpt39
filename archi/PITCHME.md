@@ -208,6 +208,9 @@ draw it on board
 
 ### GPU Architecture
 +++?image=assets/fig/uniprocessor.svg&size=auto 90%
++++?image=assets/fig/gpu_simd1.svg&size=auto 90%
++++?image=assets/fig/gpu_simd2.svg&size=auto 90%
++++?image=assets/fig/gpu_simd3.svg&size=auto 90%
 ---
 
 ### Example Heterogeneous SoCs
