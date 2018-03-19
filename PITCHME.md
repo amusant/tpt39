@@ -83,22 +83,6 @@
     <td><span style="font-size:0.6em; color:gray">Quiz & Corrections</td>
   </tr>
 </table>
-<!--
-### Course Plan
-| Session       | Topic           		|
-| ------------- |:-------------:		|
-| 19/03 10:00   | Introduction/Setup 	|
-| 19/03 13:30   | GPU/SoC Architecture Recap    |
-| 20/03 8:30	| Lab Work With ARM MALI / ODROID XU4      		|
-| 20/03 13:30	| Lab Work With ARM MALI / ODROID XU4      		|
-| 21/03 8:30	| Project: Video Filtering   					|
-| 21/03 13:30	| FPGA/SoC Architecture Recap   					|
-| 22/03 8:30	| Lab Work Altera DE1-SoC		|
-| 22/03 13:30	| Lab Work Altera DE1-SoC		|
-| 23/03 8:30	| Project: Video Filtering		|
-| 23/03 13:30	| Quiz & Corrections		|
-+++
--->
 +++
 ### Principles
 
@@ -114,8 +98,6 @@
 There will be a multiple-choice quiz on friday. (10)
 
 ---
-
-+++?image=assets/FF_WV.png&size=auto 90%
-<!-- .slide: data-background-transition="none" -->
+### Let's Setup
 
 ---
