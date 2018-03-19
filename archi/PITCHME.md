@@ -94,7 +94,7 @@ draw it on board
 * DRAM response can come out of order, has high initial latency.
 ---
 ### RECAP: Cache
-+++?image=assets/opencl.svg&size=auto 90%
++++?image=assets/fig/opencl.svg&size=auto 90%
 ---
 
 ### RECAP: Cache: Cache Terminology
@@ -114,7 +114,7 @@ draw it on board
 
 ### RECAP  Cache Organization (4 Way)
 
-+++?image=assets/cache.svg&size=auto 90%
++++?image=assets/fig/cache.svg&size=auto 90%
 ---
 ### RECAP  Cache Policies
 
