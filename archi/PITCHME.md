@@ -121,6 +121,8 @@ draw it on board
 * Allocation 
   * Write Allocate : On a Write miss replace the cache line.
   * Read Allocate : On a read miss replace the cache line.
+---
+### RECAP  Cache Policies
 * Update
   * Write Through : A write updates both the cache and the main  memory.
   * Write Back: Write updates the cache only (marked as dirty). Main memory is updated, when the line is evicted, cache is flushed.
@@ -130,6 +132,8 @@ draw it on board
 ### RECAP: Cache Coherence
 * Case 1. Memory update by another master. Cached copy is out of date.
 * Case 2. For write back cache, when master writes to cache, main memory is out of date.
+---
+### RECAP: Cache Coherence
 * Cache Coherency Protocols
 	* MEI (Modified, Exclusive, Invalid)
 	* MESI (Modified, Exclusive, Shared Invalid)
@@ -139,6 +143,31 @@ draw it on board
 	* Cache to Cache move of Dirty data without accessing external memory.
 
 ---
+### Recap : MMU
+#HSLIDE?image=assets/mmu.svg
+<!-- .slide: data-background-transition="none" -->
+#HSLIDE?image=assets/mmu1.svg
+---
+
+### Recap: MMu Operation
+* Translation Lookaside Buffer
+	* Keeps a page table for virtual to physical address translation.
+	* 4GB memory with page size of 4K => ~4MB
+	* Each process has a different page table.
+	* page table is kept in main memory.
+    * Each access will need two accesses to main memory.
+    * TLB acts as a cache for page table entries (PTE).
+---
+### Recap : Life of a Memory Request
+---?image=assets/vm_path.svg
+
+
+### Recap : Memory Hierarchy
++++?image=assets/fig/memhier_mobile.svg&size=auto 90%
++++?image=assets/fig/memhier_laptop.svg&size=auto 90%
++++?image=assets/fig/memhier_dektop.svg&size=auto 90%
++++?image=assets/fig/memhier_serve.svg&size=auto 90%
+
 +++?image=assets/simd.svg&size=auto 90%
 +++?image=assets/simd1.svg&size=auto 90%
 +++?image=assets/simd2.svg&size=auto 90%
@@ -152,17 +181,6 @@ draw it on board
 ### Example Heterogeneous SoCs
 ---
 ### Example Heterogeneous SoCs
----
-### Recap : Memory Hierarchy
-+++?image=assets/memory_hier.svg&size=auto 90%
----
-### Recap : Memory Hierarchy
-#HSLIDE?image=assets/mmu.svg
-<!-- .slide: data-background-transition="none" -->
-#HSLIDE?image=assets/mmu1.svg
----
-### Recap : Memory Hierarchy
----?image=assets/vm_path.svg
 ---
 ### Recap : Memory Hierarchy
 
