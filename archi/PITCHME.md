@@ -1,6 +1,6 @@
 ### Accelerator Design with OpenCL
 ##### (Athens Week 19-24 March, 2018) 
-
+---
 ### Parallelism
 
 - Task Parallelism |
@@ -11,7 +11,7 @@ Note:
 Task example car assembly
 Data Example Graphic render
 pipeline: car assembly.
-
+---
 ### Task Parallelism
 
 * A process in brok into different tasks.
@@ -19,6 +19,7 @@ pipeline: car assembly.
 * e.g Car Assembly
 Note:
 draw it on board
+---
 ### Data Parallelism
 
 * Diffrent parts of data can be processed in parallel.
@@ -26,6 +27,7 @@ draw it on board
 
 Note:
 draw it on board
+---
 #### quiz
 - Get the average value of a vector |
 
