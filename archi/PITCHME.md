@@ -5,7 +5,7 @@
 
 - Task Parallelism |
 - Data Parallelism |
-- Pipeline
+- Pipeline |
 
 Note:
 Task example car assembly
