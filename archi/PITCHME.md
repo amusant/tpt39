@@ -93,18 +93,18 @@ draw it on board
 * DRAM is the main performance bottleneck in a SoC.
 * DRAM response can come out of order, has high initial latency.
 ---
-# RECAP: Cache
+### RECAP: Cache
 +++?image=assets/opencl.svg&size=auto 90%
 ---
 
-#RECAP: Cache: Cache Terminology
+### RECAP: Cache: Cache Terminology
 * Memory contains up-to-date data, and cache has a copy  (cache line): CLEAN
 * Cache has up-to-date data, and it must be written back to memory: DIRTY
 * Memory contains up-to-date data, and cache does not : INVALID
 * Memory does not have up-to-date data, cache does not : INVALID
 ---
 
-#RECAP Cache Terminology
+### RECAP Cache Terminology
 
 * HIT: Data found in Cache.
 * MISS: Data is not in the cache.
@@ -112,11 +112,11 @@ draw it on board
 
 ---
 
-#RECAP  Cache Organization (4 Way)
+### RECAP  Cache Organization (4 Way)
 
 +++?image=assets/cache.svg&size=auto 90%
 ---
-#RECAP  Cache Policies
+### RECAP  Cache Policies
 
 * Allocation 
   * Write Allocate : On a Write miss replace the cache line.
@@ -127,7 +127,7 @@ draw it on board
 
 ---
 
-#RECAP: Cache Coherence
+### RECAP: Cache Coherence
 * Case 1. Memory update by another master. Cached copy is out of date.
 * Case 2. For write back cache, when master writes to cache, main memory is out of date.
 * Cache Coherency Protocols
