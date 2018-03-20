@@ -76,11 +76,29 @@ GPU Architecture : Evolution
 - L2 Cache can be configured for upto 64KB.
 - Each core Rated at 17 Flops/cycle. (FP32)
 - 64 byte Cache lines
-- source <a https://community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-3---the-midgard-shader-core a/>
-- source <a https://community.arm.com/graphics/f/discussions/6557/mali-t628-gpu-activity-in-streamline a/>
+---
+### Source: Mali T628
+- <span style="font-size:0.4em">https://community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-3---the-midgard-shader-core 
+- https://community.arm.com/graphics/f/discussions/6557/mali-t628-gpu-activity-in-streamline 
 ### Example Heterogeneous SoCs
 +++?image=assets/acecontext.svg&size=auto 90%
 ---
+### Expressing Paralleism
+- NDRangeKernel |
+- global_work_size() defines that total no. of elements. |
+- if each element is independent it is also the number of work_items. |
+- each work item can be associated with one thread. |
 ---
+### Expressing Paralleism
+- the global work can be separated into groups.
+- get_group_id() gives the id of the group. 
+- get_local_id() gives the id of the local work item within the group.
+---
+### LAB WORK 1
+- Vector addition with size N 
+- Calculate speedup with varying N.
+- Measure Flops/s.
+- Do the same by using workgroups.
+
 ### Domain Specific Architecture
 
