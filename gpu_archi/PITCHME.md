@@ -103,5 +103,15 @@ GPU Architecture : Evolution
 - Calculate the average of a vector using workgroups.
 - Measure speedup.
 ---
+### Debugger: MGD
+* in a405-xx.enst.fr (desktop) clone the git depot.
+* source init.sh > /dev/null
+* module load mali/4.4
+* mgd
+
+* in odroid
+* source init_odroid.sh
+* mgddaemon
+* make debug
 ### Domain Specific Architecture
 
