@@ -108,7 +108,7 @@ GPU Architecture : Evolution
 
 ---
 ### Synchronization Functions: Mem Fence
-- mem_ence: all memory accesses preceding mem_fence must end before starting memory accesses following mem_fence. |
+- mem_fence: all memory accesses preceding mem_fence must end before starting memory accesses following mem_fence. |
 - read_mem_fence : only for loads. |
 - write_mem_fence: only for stores. | 
 	- arguments: CLK_LOCAL_MEM_FENCE: only load/stores to local memory. |
@@ -152,5 +152,6 @@ GPU Architecture : Evolution
 	* $ source init.sh
 	* $ module load mali/4.4
 	* $ streamline
+---
 ### Domain Specific Architecture
 
