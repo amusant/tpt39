@@ -99,7 +99,9 @@ GPU Architecture : Evolution
 - Vector addition with size N 
 - Calculate speedup with varying N.
 - Measure Flops/s.
-- Do the same by using workgroups.
+- Calculate the average of a vector.
+- Calculate the average of a vector using workgroups.
+- Measure speedup.
 ---
 ### Domain Specific Architecture
 
