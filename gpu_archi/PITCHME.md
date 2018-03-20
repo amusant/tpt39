@@ -34,10 +34,11 @@
 --- 
 GPU Architecture : Evolution
 * MIMD, but wait, we don't need the mutliple-instruction streams. |
-* let' get rid of it. |
+* let' get rid of them. |
 ---
 ### GPU Architecture : SIMD
 +++?image=assets/fig/gpu_simd1.svg&size=auto 90%
+---
 ### GPU Architecture : More SIMD
 +++?image=assets/fig/gpu_simd2.svg&size=auto 90%
 ---
