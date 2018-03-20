@@ -62,7 +62,7 @@ https://www.khronos.org/registry/OpenCL/sdk/1.2/
 +++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Launching Job
 @[174-175](clEnqueueNDRangeKernel)
 +++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Reading back the result.
-@[177-178](output: Host Buffer,output_buf: CL Buffer)
+@[178-179](output: Host Buffer,output_buf: CL Buffer)
 ---
 #### References
 https://www.khronos.org/assets/uploads/developers/library/2012-pan-pacific-road-show-June/OpenCL-Details-Taiwan_June-2012.pdf
