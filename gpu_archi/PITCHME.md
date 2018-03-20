@@ -106,17 +106,18 @@ GPU Architecture : Evolution
 - get_group_id()
 - get_global_offset() 
 
+---
 ### Synchronization Functions: Mem Fence
-- mem_ence: all memory accesses preceding mem_fence must end before starting memory accesses following mem_fence.
-- read_mem_fence : only for loads.
-- write_mem_fence: only for stores.
-	- arguments: CLK_LOCAL_MEM_FENCE: only load/stores to local memory.
-	- arguments: CLK_GLOBAL_MEM_FENCE: only load/stores to global memory.
+- mem_ence: all memory accesses preceding mem_fence must end before starting memory accesses following mem_fence. |
+- read_mem_fence : only for loads. |
+- write_mem_fence: only for stores. | 
+	- arguments: CLK_LOCAL_MEM_FENCE: only load/stores to local memory. |
+	- arguments: CLK_GLOBAL_MEM_FENCE: only load/stores to global memory. |
 ---
 ### Synchronization Functions: Barrier
-* All work-items in a work-group  must execute this function before the work group can proceed.
-* Barrier also issues a mem_fence either to CLK_LOCAL_MEM_FENCE or CLK_GLOBAL_MEM_FENCE.
-* There is no way to synchronize work items in different work groups.
+* All work-items in a work-group  must execute this function before the work group can proceed. |
+* Barrier also issues a mem_fence either to CLK_LOCAL_MEM_FENCE or CLK_GLOBAL_MEM_FENCE. |
+* There is no way to synchronize work items in different work groups. |
 ---
 ### LAB WORK 1
 - Vector addition with size N 
