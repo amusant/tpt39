@@ -47,7 +47,7 @@ GPU Architecture : Evolution
 - Which helped us manage latency.
 ---
 ### GPU Architecture : SIMD with multi-threading.
-+++?image=assets/fig/gpu_simd3.svg&size=auto 90%
++++?image=assets/fig/gpu_simd3.svg&size=auto 90% &title=caca
 ---
 
 ### Example Heterogeneous SoCs
