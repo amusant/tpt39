@@ -113,5 +113,6 @@ GPU Architecture : Evolution
 	* source init_odroid.sh
 	* mgddaemon
 	* make debug
+---
 ### Domain Specific Architecture
 
