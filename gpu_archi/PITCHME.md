@@ -80,6 +80,7 @@ GPU Architecture : Evolution
 ### Source: Mali T628
 - <span style="font-size:0.4em">https://community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-3---the-midgard-shader-core 
 - https://community.arm.com/graphics/f/discussions/6557/mali-t628-gpu-activity-in-streamline 
+---
 ### Example Heterogeneous SoCs
 +++?image=assets/acecontext.svg&size=auto 90%
 ---
