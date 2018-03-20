@@ -45,7 +45,11 @@
 @[64-68](Tear Down)
 https://www.khronos.org/registry/OpenCL/sdk/1.2/
 +++?code=ocl_syntax/src/vector_add.c&lang=c&title=Vector Addition
-@[62](Enqueue the Kernel in the queue)
+@[118](Creating Context)
+@[119](Creating Command Queue)
+@[119](Creating Command Queue)
+@[129](Build Program)
+@[131](Create Kernel)
 ---
 #### References
 https://www.khronos.org/assets/uploads/developers/library/2012-pan-pacific-road-show-June/OpenCL-Details-Taiwan_June-2012.pdf
