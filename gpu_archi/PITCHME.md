@@ -109,9 +109,9 @@ GPU Architecture : Evolution
 * module load mali/4.4
 * mgd
 
-* in odroid
-* source init_odroid.sh
-* mgddaemon
-* make debug
+	* in odroid
+	* source init_odroid.sh
+	* mgddaemon
+	* make debug
 ### Domain Specific Architecture
 
