@@ -95,6 +95,29 @@ GPU Architecture : Evolution
 - get_group_id() gives the id of the group. 
 - get_local_id() gives the id of the local work item within the group.
 ---
+
+### Work Item Related Functions:
+- get_work_dim()
+- get_global_size()
+- get_global_id()
+- get_local_size()
+- get_local_id()
+- get_num_groups()
+- get_group_id()
+- get_global_offset() 
+
+### Synchronization Functions: Mem Fence
+- mem_ence: all memory accesses preceding mem_fence must end before starting memory accesses following mem_fence.
+- read_mem_fence : only for loads.
+- write_mem_fence: only for stores.
+	- arguments: CLK_LOCAL_MEM_FENCE: only load/stores to local memory.
+	- arguments: CLK_GLOBAL_MEM_FENCE: only load/stores to global memory.
+---
+### Synchronization Functions: Barrier
+* All work-items in a work-group  must execute this function before the work group can proceed.
+* Barrier also issues a mem_fence either to CLK_LOCAL_MEM_FENCE or CLK_GLOBAL_MEM_FENCE.
+* There is no way to synchronize work items in different work groups.
+---
 ### LAB WORK 1
 - Vector addition with size N 
 - Calculate speedup with varying N.
@@ -102,6 +125,13 @@ GPU Architecture : Evolution
 - Calculate the average of a vector.
 - Calculate the average of a vector using workgroups.
 - Measure speedup.
+---
+### LAB WORK 2
+- Write a Matrix multiplication routing with two matrices of size M x K, K x N.
+- where M=K=N
+- measure speed up
+- use streamline to see various statistics about Cache/TLB miss.
+- Measure Flops/S.
 ---
 ### Debugger: MGD
 * in a405-xx.enst.fr (desktop) clone the git depot.
@@ -114,5 +144,12 @@ GPU Architecture : Evolution
 	* mgddaemon
 	* make debug
 ---
+### Performance Monitor: Streamline
+* run start_gator.sh in tpt39/
+	* cd tpt39; ./start_gator.sh&
+* in a405-XX.enst.fr
+	* $ source init.sh
+	* $ module load mali/4.4
+	* $ streamline
 ### Domain Specific Architecture
 

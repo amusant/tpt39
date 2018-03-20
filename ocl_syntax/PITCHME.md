@@ -65,6 +65,8 @@ https://www.khronos.org/registry/OpenCL/sdk/1.2/
 @[174-175](clEnqueueNDRangeKernel)
 +++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Reading back the result.
 @[178-179](output: Host Buffer,output_buf: CL Buffer)
++++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Reading back the result.
+@[206-208](Query for the maximum work group size)
 ---
 #### References
 https://www.khronos.org/assets/uploads/developers/library/2012-pan-pacific-road-show-June/OpenCL-Details-Taiwan_June-2012.pdf

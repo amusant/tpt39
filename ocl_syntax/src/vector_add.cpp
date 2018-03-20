@@ -113,6 +113,7 @@ int status;
      clGetPlatformInfo(platform, CL_PLATFORM_VERSION, STRING_BUFFER_LEN, char_buffer, NULL);
      printf("%-40s = %s\n\n", "CL_PLATFORM_VERSION ", char_buffer);
 
+
      context_properties[1] = (cl_context_properties)platform;
      clGetDeviceIDs(platform, CL_DEVICE_TYPE_GPU, 1, &device, NULL);
      context = clCreateContext(context_properties, 1, &device, NULL, NULL, NULL);
@@ -202,6 +203,9 @@ clReleaseMemObject(output_buf);
 clReleaseProgram(program);
 clReleaseContext(context);
 
+	 size_t max_work_group_size;
+     clGetDeviceInfo(device,CL_DEVICE_MAX_WORK_GROUP_SIZE,sizeof(size_t),&max_work_group_size,NULL);
+     printf("%-40s = %d\n\n", "CL_DEVICE_MAX_WORK_GROUP_SIZE", max_work_group_size);
 
 //--------------------------------------------------------------------
 
