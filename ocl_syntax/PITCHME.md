@@ -50,6 +50,19 @@ https://www.khronos.org/registry/OpenCL/sdk/1.2/
 @[119](Creating Command Queue)
 @[129](Build Program)
 @[131](Create Kernel)
++++?code=ocl_syntax/src/vector_add.cpp&lang=c&title=Creating CL Buffers
+@[133](Creating CL Buffers input (read))
+@[137](Creating CL Buffers input (read))
+@[142](Creating CL Buffers output (write))
++++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Copying Host Buffers to CL buffers
+@[153](Creating CL Buffers input (read))
+@[157](Creating CL Buffers input (read))
++++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Setting Kernel Arguments
+@[164-170](Setting Kernel Arguments)
++++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Launching Job
+@[174](clEnqueueNDRangeKernel)
++++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Reading back teh result.
+@[174](clEnqueueReadBuffer)
 ---
 #### References
 https://www.khronos.org/assets/uploads/developers/library/2012-pan-pacific-road-show-June/OpenCL-Details-Taiwan_June-2012.pdf
