@@ -52,6 +52,8 @@ GPU Architecture : Evolution
 
 ### Example Heterogeneous SoCs
 +++?image=assets/acecontext.svg&size=auto 90%
+### Example Heterogeneous SoCs
+![image](assets/acecontext.svg)
 ---
 ### Domain Specific Architecture
 
