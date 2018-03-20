@@ -1,5 +1,6 @@
 ### Accelerator Design with OpenCL
 ##### (Athens Week 19-24 March, 2018) 
+---
 ### What do we know so far ?
 - There are three types of parallelism
 	- Task Parallelism
@@ -17,6 +18,7 @@
 	- Multicores with Simultaneous Multi-Threading.
 
 - And we said hello to the world from our GPU (Mali-T628).
+---
 ### GPU Architecture : Uniprocessor
 +++?image=assets/fig/uniprocessor.svg&size=auto 90%
 ---
@@ -26,7 +28,9 @@
 - Because they live in a embarrasingly data-parallel environment.
 - The memory stalls/latency problems are still there.
 - So are the solutions to hide them.
+---
 ### GPU Architecture : MIMD
++++?image=assets/fig/gpu_mimd.svg&size=auto 90%
 --- GPU Architecture : Evolution
 * MIMD, bu we don't need the mutliple-instruction streams.
 * let' get rid of it.
