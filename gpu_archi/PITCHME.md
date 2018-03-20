@@ -57,7 +57,7 @@ GPU Architecture : Evolution
 ---
 ### GPU Architecture : Refinements
 - The context memory is configurable for different number of threads.
-- Addinc Cache is helpful.
+- Adding Cache is helpful.
 +++?image=assets/fig/gpu_refined_cache.svg&size=auto 90% 
 ---
 ### GPU Architecture : Refinements
