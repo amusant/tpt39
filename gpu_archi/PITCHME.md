@@ -52,8 +52,9 @@ GPU Architecture : Evolution
 
 ### Example Heterogeneous SoCs
 +++?image=assets/acecontext.svg&size=auto 90%
+---
 ### Example Heterogeneous SoCs
-![image](assets/acecontext.svg)
+![image](https://github.com/amusant/tpt39/blob/tmpdev/assets/acecontext.svg)
 ---
 ### Domain Specific Architecture
 
