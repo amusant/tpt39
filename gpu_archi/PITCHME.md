@@ -47,14 +47,40 @@ GPU Architecture : Evolution
 - Which helped us manage latency.
 ---
 ### GPU Architecture : SIMD with multi-threading.
-+++?image=assets/fig/gpu_simd3.svg&size=auto 90% &title=caca
++++?image=assets/fig/gpu_simd3.svg&size=auto 90% 
 ---
-
+### Quiz 
+* What is the peak performance of this core in Gflops ?
+---
+### GPU Architecture : Refinements
++++?image=assets/fig/gpu_refined.svg&size=auto 90% 
+---
+### GPU Architecture : Refinements
+- The context memory is configurable for different number of threads.
+- Addinc Cache is helpful.
++++?image=assets/fig/gpu_refined_cache.svg&size=auto 90% 
+---
+### GPU Architecture : Refinements
+- Adding Scratchpad memory, so that threads can communicate locally.
++++?image=assets/fig/gpu_refined_cache_sp.svg&size=auto 90% 
+---
+### GPU: Multiple Shader Cores
++++?image=assets/fig/gpu_refined_multi.svg&size=auto 90% 
+---
+### Our GPU : Mali T628
+- ARM MidGard family.
+- Can be configures for 4-16 cores.
+- configurable SIMD
+	- 2x FP64, 4x FP32, 8x FP16, 2x int64, 4x int32, 8x int16, 16x int8
+- Two L1 Caches/ Shader core 16KB
+- L2 Cache can be configured for upto 64KB.
+- Each core Rated at 17 Flops/cycle. (FP32)
+- 64 byte Cache lines
+- source <a https://community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-3---the-midgard-shader-core a/>
+- source <a https://community.arm.com/graphics/f/discussions/6557/mali-t628-gpu-activity-in-streamline a/>
 ### Example Heterogeneous SoCs
 +++?image=assets/acecontext.svg&size=auto 90%
 ---
-### Example Heterogeneous SoCs
-![image](https://github.com/amusant/tpt39/blob/tmpdev/assets/acecontext.svg)
 ---
 ### Domain Specific Architecture
 
