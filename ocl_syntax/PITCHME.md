@@ -44,6 +44,8 @@
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
 @[64-68](Tear Down)
 https://www.khronos.org/registry/OpenCL/sdk/1.2/
+---
++++?image=assets/oclflow.svg&size=auto 90%
 +++?code=ocl_syntax/src/vector_add.cpp&lang=c&title=Vector Addition
 @[118](Creating Context)
 @[119](Creating Command Queue)
