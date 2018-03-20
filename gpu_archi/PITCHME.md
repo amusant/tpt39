@@ -37,17 +37,17 @@ GPU Architecture : Evolution
 * let' get rid of them. |
 ---
 ### GPU Architecture : SIMD
-+++?image=assets/fig/gpu_simd1.svg&size=auto 90%
++++?image=assets/fig/gpu_simd1.svg&size=auto 70%
 ---
 ### GPU Architecture : More SIMD
-+++?image=assets/fig/gpu_simd2.svg&size=auto 90%
++++?image=assets/fig/gpu_simd2.svg&size=auto 70%
 ---
 ### GPU Architecture : More SIMD
 - Let's not forget our old friend Multi-Threading.
 - Which helped us manage latency.
 ---
 ### GPU Architecture : SIMD with multi-threading.
-+++?image=assets/fig/gpu_simd3.svg&size=auto 90% 
++++?image=assets/fig/gpu_simd3.svg&size=auto 70% 
 ---
 ### Quiz 
 * What is the peak performance of this core in Gflops ?
