@@ -25,7 +25,7 @@
 - We know how to launch a OpenCL kernel
 	- Platfrom-> Device-> Context-> Command Queue -> compile kernel
 	- Create Buffers-> Pass Buffers to GPU 
-	- Launch Kernel-> readback result buffers
+	- Launch Kernel-> readback result buffers |
 ---
 ### What do we know so far ?
 - We know how to express parallelism using:
