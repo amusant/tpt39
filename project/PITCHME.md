@@ -6,7 +6,6 @@
 	- Task Parallelism |
 	- Data Parallelism |
 	- Pipeline |
-	- Pipeline |
 
 - The Amdahl's Law |
 
