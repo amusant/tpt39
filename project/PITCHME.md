@@ -6,6 +6,10 @@
 	- Task Parallelism |
 	- Data Parallelism |
 	- Pipeline |
+	- Pipeline |
+
+- The Amdahl's Law
+
 - We saw the reasons for memory stalls and latency. |
 
 - The techniques to hide latency through Caching. |
