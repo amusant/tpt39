@@ -8,7 +8,7 @@
 	- Pipeline |
 	- Pipeline |
 
-- The Amdahl's Law
+- The Amdahl's Law |
 
 - We saw the reasons for memory stalls and latency. |
 
