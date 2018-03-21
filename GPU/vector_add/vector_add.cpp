@@ -11,18 +11,6 @@ using namespace std;
 
 
 
-const char *opencl =
-    "__kernel void vector_add(__global const float *x, \n"
-    "                        __global const float *y, \n"
-    "                        __global float *restrict z)\n"
-    "{\n"
-    "    // get index of the work item\n"
-    "    int index = get_global_id(0);\n"
-    "\n"
-    "    // add the vector elements\n"
-    "    z[index] = x[index] + y[index];\n"
-    "	 //printf(\"Hello, World %d:%f!\\n\",index,z[index]);\n"
-    "}\n";
 void print_clbuild_errors(cl_program program,cl_device_id device)
 	{
 		cout<<"Program Build failed\n";
@@ -132,7 +120,6 @@ int status;
 
      unsigned char **opencl_program=read_file("vector_add.cl");
      program = clCreateProgramWithSource(context, 1, (const char **)opencl_program, NULL, NULL);
-     //program = clCreateProgramWithSource(context, 1, &opencl, NULL, NULL);
      if (program == NULL)
 	{
          printf("Program creation failed\n");
