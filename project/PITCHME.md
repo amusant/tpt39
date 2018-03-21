@@ -55,6 +55,14 @@
 - use streamline to see various statistics about Cache/TLB miss.
 - Measure Flops/S.
 ---
+### Project: Video Filtering
+- checkout the videofilter directory under tpt39/GPU
+- we do two filters 
+	- GaussianBlur
+	- Sobel Edge Detection
+- opencv docs:
+	- https://docs.opencv.org/2.4/modules/imgproc/doc/filtering.html?highlight=gaussianblur#gaussianblur
+	- https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/sobel_derivatives/sobel_derivatives.html
 ### Debugger: MGD
 * in a405-xx.enst.fr (desktop) clone the git depot.
 * source init.sh > /dev/null
