@@ -22,9 +22,9 @@
 ### What do we know so far ?
 - We saw the GPU architecture evolve to a Multi-Threaded SIMD Mulitprocessor. |
 - We saw n SoC archietcture with and some deatils about Mali T628. |
-- We know how to launch a OpenCL kernel
-	- Platfrom-> Device-> Context-> Command Queue -> compile kernel
-	- Create Buffers-> Pass Buffers to GPU 
+- We know how to launch a OpenCL kernel |
+	- Platfrom-> Device-> Context-> Command Queue -> compile kernel |
+	- Create Buffers-> Pass Buffers to GPU  |
 	- Launch Kernel-> readback result buffers |
 ---
 ### What do we know so far ?
