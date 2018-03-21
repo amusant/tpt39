@@ -21,21 +21,21 @@
 ---
 ### What do we know so far ?
 - We saw the GPU architecture evolve to a Multi-Threaded SIMD Mulitprocessor. |
-- We saw n SoC archietcture with and some deatils about Mali T628. |
+- We saw a SoC archietcture with and some deatils about Mali T628. |
 - We know how to launch a OpenCL kernel |
 	- Platfrom-> Device-> Context-> Command Queue -> compile kernel |
 	- Create Buffers-> Pass Buffers to GPU  |
 	- Launch Kernel-> readback result buffers |
 ---
 ### What do we know so far ?
-- We know how to express parallelism using:
+- We know how to express parallelism using: |
 	- get_global_id() |
-- We know how to express dependence using:
+- We know how to express dependence using: |
 	- get_local_id(), get_group_id() |
-- We learned about synchronization functions:
+- We learned about synchronization functions: |
 	- fence, barrier |
 - We saw the use of Mali Graphics Degugger |
-
+---
 
 ### LAB WORK 1
 - Vector addition with size N 
