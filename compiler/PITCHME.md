@@ -27,9 +27,10 @@
 - Distributed Shared Memory (NUMA) & Clusters
 	- MPI
 - Shared memory multiprocessors
-	-OpenMP
+	- OpenMP
 - Heterogeneous Multi-Processors
-	-OpenCL
+	- OpenCL
+- Can be used in combination
 ---
 ### Synchronization: OpenCL events
 - CL_EVENT
