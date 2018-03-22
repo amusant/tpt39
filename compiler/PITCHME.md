@@ -43,7 +43,7 @@
 - Useful Functions:
 	- clWaitForEvents
 ---
-### Synchronization: OpenCL Barriers
+### Synchronization: OpenCL Command Barriers
 -	Command Barrier
 	-	cl_int clEnqueueBarrier (	cl_command_queue command_queue)
 	-	all queued commands in command_queue before barrier must finish
