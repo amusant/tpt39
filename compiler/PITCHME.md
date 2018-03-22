@@ -1,58 +1,49 @@
 ### Accelerator Design with OpenCL
 ##### (Athens Week 19-24 March, 2018) 
-+++?image=assets/simd.svg&size=auto 90%
-+++?image=assets/simd1.svg&size=auto 90%
-+++?image=assets/simd2.svg&size=auto 90%
-+++?image=assets/simd3.svg&size=auto 90%
----
-### Example Heterogeneous SoCs
-+++?image=assets/acecontext.svg&size=auto 90%
----
-### Example Heterogeneous SoCs
----
-### Example Heterogeneous SoCs
----
-### Example Heterogeneous SoCs
----
-### Recap : Memory Hierarchy
-+++?image=assets/memory_hier.svg&size=auto 90%
----
-### Recap : Memory Hierarchy
-#HSLIDE?image=assets/mmu.svg
-<!-- .slide: data-background-transition="none" -->
-#HSLIDE?image=assets/mmu1.svg
----
-### Recap : Memory Hierarchy
----?image=assets/vm_path.svg
----
-### Recap : Memory Hierarchy
 
-- Memory contains up-to-date data, and cache has a copy (cache line) : CLEAN |
-- Cache has up-to-date data, and it must be written back to memory : DIRTY |
-- Memory contains up-to-date data, and cache does not : INVALID |
-- Memory does not have up-to-date data, cache does not : INVALID |
-- INVALID implies a cache miss. |
+### Parallelizing codes: Techniques
 
++++?image=assets/fig/para_seq.svg&size=auto 90%
 ---
-### Recap : Memory Hierarchy
+### Loops: Sequential
++++?image=assets/fig/para_intra.svg&size=auto 90%
 ---
-### Parallelism
+### Loops: Inter Task Parallelism
++++?image=assets/fig/para_inter.svg&size=auto 90%
 ---
-### Parallelism: Task Level
+### Loops: Intra & Inter Task Parallelism
++++?image=assets/fig/para_inter_intra.svg&size=auto 90%
 ---
-### Parallelism: Thread Level
+### Loops: Inter Iteration Parallelism
++++?image=assets/fig/para_inter_iter.svg&size=auto 90%
 ---
-### Parallelism: Data Level
+### Loops: Inter Instruction Parallelism
++++?image=assets/para_inter_instr.svg&size=auto 90%
 ---
-### Parallelism: Pipeline
+
+### Parallelizing Codes: Libraries
+- Distributed Shared Memory (NUMA) & Clusters
+	- MPI
+- Shared memory multiprocessors
+	-OpenMP
+- Heterogeneous Multi-Processors
+	-OpenCL
 ---
-### Parallelism: Amdahl's Law
-`$$speedup= \frac{1}{S+\frac{P}{N}}$$` 
-* S:Fraction of the application that is serial.
-* P:Fraction of the application that is parallelizable. 
-* N Processor Speedup.
----
-### GPU Architecture
----
-### Domain Specific Architecture
+### Synchronization: OpenCL events
+- CL_EVENT
+	- 	CL_QUEUED
+	-	CL_SUBMITED
+	-	CL_RUNNING
+	-	CL_COMPLETE
+	- 	ERROR_CODE
+
+- Useful Functions:
+	- clWaitForEvents
+### Synchronization: OpenCL Barriers
+-	Command Barrier
+	-	cl_int clEnqueueBarrier (	cl_command_queue command_queue)
+	-	all queued commands in command_queue before barrier must finish
+		before starting the commands after barrier.
+
+	
 
