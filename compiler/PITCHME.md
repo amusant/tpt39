@@ -3,9 +3,11 @@
 ---
 ### Parallelizing codes: Techniques
 
-+++?image=assets/fig/para_seq.svg&size=auto 90%
 ---
 ### Loops: Sequential
++++?image=assets/fig/para_seq.svg&size=auto 90%
+---
+### Loops: Intra Task Parallelism
 +++?image=assets/fig/para_intra.svg&size=auto 90%
 ---
 ### Loops: Inter Task Parallelism
