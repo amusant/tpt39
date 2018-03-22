@@ -63,6 +63,16 @@
 - opencv docs:
 	- <span style="font-size:0.4em">https://docs.opencv.org/2.4/modules/imgproc/doc/filtering.html?highlight=gaussianblur#gaussianblur
 	- <span style="font-size:0.4em">https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/sobel_derivatives/sobel_derivatives.html
+### Project: Useful functions
+* to copy opencv mat to  an array:
+	* memcpy(cameraFrame.data, input, 3*ROWS*COLS*sizeof(char));
+* to pad:
+	- copyMakeBorder( src, dst, top, bottom, left, right, borderType, value );
+	- <span style="font-size:0.4em">https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/copyMakeBorder/copyMakeBorder.html
+* Mat data type:
+	- <span style="font-size:0.4em">https://docs.opencv.org/2.4/modules/core/doc/basic_structures.html#mat
+* Mat Convert data type:
+	- <span style="font-size:0.4em">https://docs.opencv.org/2.4/modules/core/doc/basic_structures.html#mat-convertto
 ---
 ### Debugger: MGD
 * in a405-xx.enst.fr (desktop) clone the git depot.
