@@ -20,6 +20,7 @@ void print_clbuild_errors(cl_program program,cl_device_id device)
 		cout<<"--- Build log ---\n "<<buffer<<endl;
 		exit(1);
 	}
+
 unsigned char ** read_file(const char *name) {
   size_t size;
   unsigned char **output=(unsigned char **)malloc(sizeof(unsigned char *));
@@ -34,6 +35,8 @@ unsigned char ** read_file(const char *name) {
   fseek(fp, 0, SEEK_SET);
 
   *output = (unsigned char *)malloc(size);
+  unsigned char **outputstr=(unsigned char **)malloc(sizeof(unsigned char *));
+  *outputstr= (unsigned char *)malloc(size);
   if (!*output) {
     fclose(fp);
     printf("mem allocate failure:%s",name);
@@ -42,9 +45,13 @@ unsigned char ** read_file(const char *name) {
 
   if(!fread(*output, size, 1, fp)) printf("failed to read file\n");
   fclose(fp);
-  return output;
+  printf("file size %d\n",size);
+  printf("-------------------------------------------\n");
+  snprintf((char *)*outputstr,size,"%s\n",*output);
+  printf("%s\n",*outputstr);
+  printf("-------------------------------------------\n");
+  return outputstr;
 }
-
 void callback(const char *buffer, size_t length, size_t final, void *user_data)
 {
      fwrite(buffer, 1, length, stdout);
