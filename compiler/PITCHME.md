@@ -1,6 +1,6 @@
 ### Accelerator Design with OpenCL
 ##### (Athens Week 19-24 March, 2018) 
-
+---
 ### Parallelizing codes: Techniques
 
 +++?image=assets/fig/para_seq.svg&size=auto 90%
