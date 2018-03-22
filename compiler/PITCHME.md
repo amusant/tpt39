@@ -20,7 +20,7 @@
 +++?image=assets/fig/para_inter_iter.svg&size=auto 90%
 ---
 ### Loops: Inter Instruction Parallelism
-+++?image=assets/para_inter_instr.svg&size=auto 90%
+- Taken care of by Compilers
 ---
 
 ### Parallelizing Codes: Libraries
