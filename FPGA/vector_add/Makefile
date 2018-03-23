@@ -18,6 +18,8 @@ all :
 sim:
 	LD_LIBRARY_PATH=${LIB_PATH} CL_CONTEXT_EMULATOR_DEVICE_ALTERA=1 ./${KERNEL}.exe
 
+build:
+	${CL}  -cl-opt-disable  --profile device/${KERNEL}.cl
 
 
 # Standard make targets
