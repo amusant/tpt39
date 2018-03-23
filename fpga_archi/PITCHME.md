@@ -7,7 +7,7 @@
 ### FPGA Architecture: Basic Logic Element
 +++?image=assets/BLE.svg&size=auto 90%
 ---
-### FPGA Architecture: Configurable Logic Block
+### FPGA Architecture: Configurable Logic Block (CLB/LAB)
 +++?image=assets/cluster.svg&size=auto 90%
 ---
 ### FPGA Architecture: Routing
@@ -31,8 +31,8 @@
 ### FPGA: Applications
 * Prototyping, ASIC Emulation |
 	- FPGAs can emulate all hardware
-* Low/Medium  volume hardware
-	* Telecom Equipment
+* Low/Medium  volume hardware |
+	* Telecom Equipment |
 * Low Latency Real-Time Systems |
 	* Drones, Financial Feeds |
 * Military |
