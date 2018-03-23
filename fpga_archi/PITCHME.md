@@ -84,7 +84,11 @@
 - each loopnest is transformed to a hardware pipeline. |
 - Extensions: FIFO stream. |
 ---
-### OpenCL for FPGAs: DEMO
+### OpenCL for FPGAs: Streams
++++?image=assets/fig/opencl_fpga_demo.svg&size=auto 90%
++++?image=assets/fig/opencl_fpga_demo1.svg&size=auto 90%
++++?image=assets/fig/opencl_fpga_demo2.svg&size=auto 90%
++++?image=assets/fig/opencl_fpga_demo3.svg&size=auto 90%
 	
 ---
 
