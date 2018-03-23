@@ -2,7 +2,7 @@
 ##### (Athens Week 19-24 March, 2018) 
 ---
 ### FPGA Architecture: Overview
-+++?image=assets/fig/FPGAsArch.svg&size=auto 90%
++++?image=assets/FPGAsArch.svg&size=auto 90%
 ---
 ### FPGA Architecture: Basic Logic Element
 +++?image=assets/BLE.svg&size=auto 90%
@@ -70,6 +70,7 @@
 	- 170 MB Memory Blocks
 	- 7.9 TMACs/s
 	- 3.2 TFlops/s
+---
 ### FPGA Architecture: example
 * SoCFPGA Ultrascale
 	- 600,000 BLEs (equivalent)
@@ -78,9 +79,13 @@
 	- Quad Core ARM Cortex-A53
 	- Dual Core ARM Cortex R5
 	- ARM Mali 400 MP2
+---
 ### OpenCL for FPGAs
 - each loopnest is transformed to a hardware pipeline. |
 - Extensions: FIFO stream. |
-
+---
+### OpenCL for FPGAs: DEMO
 	
+---
 
+### OpenCL for FPGAs: LABWORK
