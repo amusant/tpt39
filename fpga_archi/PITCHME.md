@@ -14,10 +14,10 @@
 +++?image=assets/FPGAroutingArch.svg&size=auto 90%
 ---
 ### FPGA Architecture: Hard Macros
-+++?image=assets/stxv-floorplan.png&size=auto 90%
++++?image=assets/stxv-floorplan.png&size=auto 70%
 ---
 ### FPGA Architecture: DSP Blocks
-+++?image=assets/cyclonev_dsp.png&size=auto 90%
++++?image=assets/cyclonev_dsp.png&size=auto 70%
 ---
 ### FPGA : Design Input
 * Hardware Description Language
