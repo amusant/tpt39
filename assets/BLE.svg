@@ -32,8 +32,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="2.7278222"
-     inkscape:cx="606.01563"
-     inkscape:cy="-483.52812"
+     inkscape:cx="183.20313"
+     inkscape:cy="175.78125"
      inkscape:window-x="1080"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -53,7 +53,7 @@
          d="m 3135,2960 2442,0 0,-2240 -2442,0 0,2240 z"
          inkscape:connector-curvature="0" /></clipPath></defs><g
      clip-path="url(#clipPath12)"
-     transform="matrix(1.25,0,0,1.25,422.8125,659.30937)"
+     transform="scale(1.25,1.25)"
      id="g10"><g
        transform="matrix(0.125,0,0,-0.125,-405,371.25)"
        id="g16"><g
