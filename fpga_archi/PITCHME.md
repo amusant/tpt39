@@ -92,4 +92,19 @@
 	
 ---
 
-### OpenCL for FPGAs: LABWORK
+### OpenCL for FPGAs: LAB WORK
+* setup
+	* git pull
+	* source init.sh
+	* module load altera/17.0
+	* module load altera/s5_ref
+* Go to FPGA/vector_add
+	* compile for emulation
+		* make cl_compile
+		* make all
+		* make sim
+	* build
+		* make build
+* Check reports
+
+
