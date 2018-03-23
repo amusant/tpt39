@@ -57,10 +57,10 @@
 * OpenCL can be use to program both PCI-X cards and SOcFPGAs.
 ---
 ### SoCFPGA Architecture: Altera Cyclone V
-+++?image=assets/fig/cyclonev.svg&size=auto 90%
++++?image=assets/cycloneV.svg&size=auto 70%
 ---
 ### SoCFPGA Architecture: Xilinx Ultrascale
-+++?image=assets/fig/ultrascale.svg&size=auto 90%
++++?image=assets/ultrascale.svg&size=auto 90%
 ---
 ### FPGA Architecture: example
 * PCI-X based card Stratix 10
