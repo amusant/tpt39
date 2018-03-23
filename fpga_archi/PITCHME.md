@@ -85,10 +85,10 @@
 - Extensions: FIFO stream. |
 ---
 ### OpenCL for FPGAs: Streams
-+++?image=assets/fig/opencl_fpga_demo.svg&size=auto 10%
-+++?image=assets/fig/opencl_fpga_demo1.svg&size=auto 10%
-+++?image=assets/fig/opencl_fpga_demo2.svg&size=auto 10%
-+++?image=assets/fig/opencl_fpga_demo3.svg&size=auto 10%
++++?image=assets/fig/opencl_fpga_demo.svg&size=auto 30%
++++?image=assets/fig/opencl_fpga_demo1.svg&size=auto 30%
++++?image=assets/fig/opencl_fpga_demo2.svg&size=auto 30%
++++?image=assets/fig/opencl_fpga_demo3.svg&size=auto 30%
 	
 ---
 
