@@ -2,22 +2,22 @@
 ##### (Athens Week 19-24 March, 2018) 
 ---
 ### FPGA Architecture: Overview
-+++?image=assets/FPGAsArch.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/FPGAsArch.svg" height="400"/>
 ---
 ### FPGA Architecture: Basic Logic Element
-+++?image=assets/BLE.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/BLE.svg" height="400"/>
 ---
 ### FPGA Architecture: Configurable Logic Block (CLB/LAB)
-+++?image=assets/cluster.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/cluster.svg" height="400"/>
 ---
 ### FPGA Architecture: Routing
-+++?image=assets/FPGAroutingArch.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/FPGAroutingArch.svg" height="400"/>
 ---
 ### FPGA Architecture: Hard Macros
-+++?image=assets/stxv-floorplan.png&size=auto 50%
+<img src="assets/stxv-floorplan.png" height="400"/>
 ---
 ### FPGA Architecture: DSP Blocks
-+++?image=assets/cyclonev_dsp.png&size=auto 50%
+<img src="assets/cyclonev_dsp.png" height="400"/>
 ---
 ### FPGA : Design Input
 * Hardware Description Language
@@ -26,7 +26,7 @@
 * Schematic
 ---
 ### FPGA : CAD FLOW
-+++?image=assets/cad.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/cad.svg" height="400"/>
 ---
 ### FPGA: Applications
 * Prototyping, ASIC Emulation |
@@ -57,10 +57,10 @@
 * OpenCL can be use to program both PCI-X cards and SOcFPGAs.
 ---
 ### SoCFPGA Architecture: Altera Cyclone V
-+++?image=assets/cycloneV.svg&size=auto 70%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/cycloneV.svg" height="400"/>
 ---
 ### SoCFPGA Architecture: Xilinx Ultrascale
-+++?image=assets/ultrascale.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/ultrascale.svg" height="400"/>
 ---
 ### FPGA Architecture: example
 * PCI-X based card Stratix 10
@@ -85,10 +85,10 @@
 - Extensions: FIFO stream. |
 ---
 ### OpenCL for FPGAs: Streams
-+++?image=assets/fig/opencl_fpga_demo.svg&size=auto 40%
-+++?image=assets/fig/opencl_fpga_demo1.svg&size=auto 40%
-+++?image=assets/fig/opencl_fpga_demo2.svg&size=auto 40%
-+++?image=assets/fig/opencl_fpga_demo3.svg&size=auto 40%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/opencl_fpga_demo.svg&size=auto 40%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/opencl_fpga_demo1.svg&size=auto 40%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/opencl_fpga_demo2.svg&size=auto 40%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/opencl_fpga_demo3.svg&size=auto 40%
 	
 ---
 
