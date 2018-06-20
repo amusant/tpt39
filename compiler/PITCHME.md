@@ -5,19 +5,19 @@
 
 ---
 ### Loops: Sequential
-+++?image=assets/fig/para_seq.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/para_seq.svg" height="400"/>
 ---
 ### Loops: Intra Task Parallelism
-+++?image=assets/fig/para_intra.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/para_intra.svg" height="400"/>
 ---
 ### Loops: Inter Task Parallelism
-+++?image=assets/fig/para_inter.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/para_inter.svg" height="400"/>
 ---
 ### Loops: Intra & Inter Task Parallelism
-+++?image=assets/fig/para_inter_intra.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/para_inter_intra.svg" height="400"/>
 ---
 ### Loops: Inter Iteration Parallelism
-+++?image=assets/fig/para_inter_iter.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/para_inter_iter.svg" height="400"/>
 ---
 ### Loops: Inter Instruction Parallelism
 - Taken care of by Compilers
