@@ -211,8 +211,10 @@ draw it on board
 ---
 ### GPU Architecture : SIMD
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_simd1.svg" height="400"/>
+---
 ### GPU Architecture : SIMD
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_simd2.svg" height="400"/>
+---
 ### GPU Architecture : SIMD
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_simd3.svg" height="400"/>
 ---
