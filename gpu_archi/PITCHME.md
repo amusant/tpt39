@@ -20,7 +20,7 @@
 - And we said hello to the world from our GPU (Mali-T628). |
 ---
 ### GPU Architecture : Uniprocessor
-+++?image=assets/fig/uniprocessor.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/uniprocessor.svg" height="400"/>
 ---
 ### GPU Architecture : Evolution
 
@@ -30,42 +30,42 @@
 - So are the solutions to hide them. |
 ---
 ### GPU Architecture : MIMD
-+++?image=assets/fig/gpu_mimd.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_mimd.svg" height="400"/>
 --- 
 GPU Architecture : Evolution
 * MIMD, but wait, we don't need the mutliple-instruction streams. |
 * let' get rid of them. |
 ---
 ### GPU Architecture : SIMD
-+++?image=assets/fig/gpu_simd1.svg&size=auto 70%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_simd1.svg" height="400"/>
 ---
 ### GPU Architecture : More SIMD
-+++?image=assets/fig/gpu_simd2.svg&size=auto 70%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_simd2.svg" height="400"/>
 ---
 ### GPU Architecture : More SIMD
 - Let's not forget our old friend Multi-Threading.
 - Which helped us manage latency.
 ---
 ### GPU Architecture : SIMD with multi-threading.
-+++?image=assets/fig/gpu_simd3.svg&size=auto 70% 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_simd3.svg" height="400"/>
 ---
 ### Quiz 
 * What is the peak performance of this core in Gflops ?
 ---
 ### GPU Architecture : Refinements
-+++?image=assets/fig/gpu_refined.svg&size=auto 90% 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_refined.svg" height="400"/>
 ---
 ### GPU Architecture : Refinements
 - The context memory is configurable for different number of threads.
 - Adding Cache is helpful.
-+++?image=assets/fig/gpu_refined_cache.svg&size=auto 90% 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_refined_cache.svg" height="400"/>
 ---
 ### GPU Architecture : Refinements
 - Adding Scratchpad memory, so that threads can communicate locally.
-+++?image=assets/fig/gpu_refined_cache_sp.svg&size=auto 90% 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_refined_cache_sp.svg" height="400"/>
 ---
 ### GPU: Multiple Shader Cores
-+++?image=assets/fig/gpu_refined_multi.svg&size=auto 90% 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_refined_multi.svg" height="400"/>
 ---
 ### Our GPU : Mali T628
 - ARM MidGard family.
@@ -82,7 +82,7 @@ GPU Architecture : Evolution
 - <span style="font-size:0.4em">https://community.arm.com/graphics/f/discussions/6557/mali-t628-gpu-activity-in-streamline 
 ---
 ### Example Heterogeneous SoCs
-+++?image=assets/acecontext.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/acecontext.svg" height="400"/>
 ---
 ### Expressing Paralleism
 - NDRangeKernel |
@@ -152,6 +152,4 @@ GPU Architecture : Evolution
 	* $ source init.sh
 	* $ module load mali/4.4
 	* $ streamline
----
-### Domain Specific Architecture
 
