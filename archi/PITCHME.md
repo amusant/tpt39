@@ -75,10 +75,10 @@ draw it on board
 - Processor 
 ---
 ### DRAM Operation: A single DRAM Bank
-+++?image=assets/fig/ddr_bank.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/ddr_bank.svg" height="400"/>
 ---
 ### DRAM Operation: Banks 
-+++?image=assets/fig/ddr.svg&size=auto 70%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/ddr.svg" height="400"/>
 ---
 ### DRAM Operation: DRAM Operation
 * READ: Activate (open the row)-> Read -> Precharge (close).
@@ -86,7 +86,7 @@ draw it on board
 * REFRESH: READ-> WRITE back.
 ---
 ### DRAM Traffic TCL,TRCD,TRP
-+++?image=assets/fig/dram.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/dram.svg" height="400"/>
 ---
 
 ### DRAM Traffic
@@ -94,7 +94,7 @@ draw it on board
 * DRAM response can come out of order, has high initial latency.
 ---
 ### RECAP: Cache
-+++?image=assets/fig/opencl.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/opencl.svg" height="400"/>
 ---
 
 ### RECAP: Cache: Cache Terminology
@@ -114,7 +114,7 @@ draw it on board
 
 ### RECAP  Cache Organization (4 Way)
 
-+++?image=assets/fig/cache.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/cache.svg" height="400"/>
 ---
 ### RECAP  Cache Policies
 
@@ -144,9 +144,9 @@ draw it on board
 
 ---
 ### Recap : MMU
-#HSLIDE?image=assets/mmu.svg&size=auto 90%
+#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/mmu.svg&size=auto 90%
 <!-- .slide: data-background-transition="none" -->
-#HSLIDE?image=assets/mmu1.svg&size=auto 90%
+#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39//mmu1.svg&size=auto 90%
 ---
 
 ### Recap: MMu Operation
@@ -159,66 +159,66 @@ draw it on board
     * TLB acts as a cache for page table entries (PTE).
 ---
 ### Recap : Life of a Memory Request
----?image=assets/vm_path.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/vm_path.svg" height="400"/>
 ---
 
 ### Recap : Memory Hierarchy
-+++?image=assets/memory_hier.svg&size=auto 90%
-+++?image=assets/fig/memhier_mobile.svg&size=auto 90%
-+++?image=assets/fig/memhier_laptop.svg&size=auto 90%
-+++?image=assets/fig/memhier_desktop.svg&size=auto 90%
-+++?image=assets/fig/memhier_server.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/memory_hier.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/memhier_mobile.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/memhier_laptop.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/memhier_desktop.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/memhier_server.svg&size=auto 90%
 ---
 ### Recap: Processors 
-+++?image=assets/simd.svg&size=auto 90%
-+++?image=assets/simd1.svg&size=auto 90%
-+++?image=assets/simd2.svg&size=auto 90%
-+++?image=assets/simd3.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/simd.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/simd1.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/simd2.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/simd3.svg&size=auto 90%
 ---
 ### Uniprocessor
-+++?image=assets/fig/uniprocessor.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/uniprocessor.svg" height="400"/>
 ---
 ### Multiprocessor
-+++?image=assets/fig/gpu_mimd.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/gpu_mimd.svg" height="400"/>
 ---
 ### Multiprocessor: UMA
-+++?image=assets/fig/uma.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/uma.svg" height="400"/>
 ---
 ### Multiprocessor: NUMA
-+++?image=assets/fig/numa.svg&size=auto 70%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/numa.svg" height="400"/>
 ---
 ### Processor: VLIW
-+++?image=assets/fig/vliw.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/vliw.svg" height="400"/>
 ---
 ### Multi-Threading: Superscalar
-+++?image=assets/fig/superscalar.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/superscalar.svg" height="400"/>
 ---
 ### Multi-Threading: Coarse-Grained
-+++?image=assets/fig/coarse_mt.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/coarse_mt.svg" height="400"/>
 ---
 ### Multi-Threading: Fine-Grained
-+++?image=assets/fig/fine_mt.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fine_mt.svg" height="400"/>
 ---
 ### Multi-Threading: Simultaneous
-+++?image=assets/fig/smt.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/smt.svg" height="400"/>
 ---
 ### Reacp: Multi-Threading
-+++?image=assets/fig/mt.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/mt.svg" height="400"/>
 ---
 
 ### GPU Architecture : Uniprocessor
-+++?image=assets/fig/uniprocessor.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/uniprocessor.svg" height="400"/>
 ---
 ### GPU Architecture : SIMD
-+++?image=assets/fig/gpu_simd1.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/gpu_simd1.svg" height="400"/>
 ### GPU Architecture : SIMD
-+++?image=assets/fig/gpu_simd2.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/gpu_simd2.svg" height="400"/>
 ### GPU Architecture : SIMD
-+++?image=assets/fig/gpu_simd3.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/gpu_simd3.svg" height="400"/>
 ---
 
 ### Example Heterogeneous SoCs
-+++?image=assets/acecontext.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/acecontext.svg" height="400"/>
 ---
 ### Domain Specific Architecture
 
