@@ -56,13 +56,13 @@ GPU Architecture : Evolution
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_refined.svg" height="400"/>
 ---
 ### GPU Architecture : Refinements
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_refined_cache.svg" height="400"/>
 - The context memory is configurable for different number of threads.
 - Adding Cache is helpful.
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_refined_cache.svg" height="400"/>
 ---
 ### GPU Architecture : Refinements
-- Adding Scratchpad memory, so that threads can communicate locally.
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_refined_cache_sp.svg" height="400"/>
+- Adding Scratchpad memory, so that threads can communicate locally.
 ---
 ### GPU: Multiple Shader Cores
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_refined_multi.svg" height="400"/>
