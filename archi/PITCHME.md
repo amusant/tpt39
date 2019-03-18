@@ -226,3 +226,6 @@ draw it on board
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/exynos5422.svg" height="400"/>
 ---
 
+#### quiz
+
+* What is maximum computation rate in Flops/S. ?
