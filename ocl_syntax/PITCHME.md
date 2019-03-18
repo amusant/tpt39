@@ -2,6 +2,7 @@
 ##### (Athens Week 18-22 March, 2019) 
 
 ---
+### OpenCL Programming Model
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/oclflow.svg" height="400"/>
 
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
