@@ -1,5 +1,5 @@
 ### Accelerator Design with OpenCL
-##### (Athens Week 19-24 March, 2018) 
+##### (Athens Week 18-22 March, 2018) 
 ---
 ### Parallelism
 
@@ -75,10 +75,10 @@ draw it on board
 - Processor 
 ---
 ### DRAM Operation: A single DRAM Bank
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/ddr_bank.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/ddr_bank.svg" height="400"/>
 ---
 ### DRAM Operation: Banks 
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/ddr.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/ddr.svg" height="400"/>
 ---
 ### DRAM Operation: DRAM Operation
 * READ: Activate (open the row)-> Read -> Precharge (close).
@@ -86,7 +86,7 @@ draw it on board
 * REFRESH: READ-> WRITE back.
 ---
 ### DRAM Traffic TCL,TRCD,TRP
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/dram.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/dram.svg" height="400"/>
 ---
 
 ### DRAM Traffic
@@ -94,7 +94,7 @@ draw it on board
 * DRAM response can come out of order, has high initial latency.
 ---
 ### RECAP: Cache
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/opencl.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/opencl.svg" height="400"/>
 ---
 
 ### RECAP: Cache: Cache Terminology
@@ -114,7 +114,7 @@ draw it on board
 
 ### RECAP  Cache Organization (4 Way)
 
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/cache.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/cache.svg" height="400"/>
 ---
 ### RECAP  Cache Policies
 
@@ -144,9 +144,9 @@ draw it on board
 
 ---
 ### Recap : MMU
-#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/mmu.svg&size=auto 90%
+#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/mmu.svg&size=auto 90%
 <!-- .slide: data-background-transition="none" -->
-#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39//mmu1.svg&size=auto 90%
+#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39//mmu1.svg&size=auto 90%
 ---
 
 ### Recap: MMu Operation
@@ -159,68 +159,68 @@ draw it on board
     * TLB acts as a cache for page table entries (PTE).
 ---
 ### Recap : Life of a Memory Request
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/vm_path.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/vm_path.svg" height="400"/>
 ---
 
 ### Recap : Memory Hierarchy
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/memory_hier.svg&size=auto 90%
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/memhier_mobile.svg&size=auto 90%
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/memhier_laptop.svg&size=auto 90%
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/memhier_desktop.svg&size=auto 90%
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/memhier_server.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/memory_hier.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/memhier_mobile.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/memhier_laptop.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/memhier_desktop.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/memhier_server.svg&size=auto 90%
 ---
 ### Recap: Processors 
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/simd.svg&size=auto 90%
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/simd1.svg&size=auto 90%
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/simd2.svg&size=auto 90%
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/simd3.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/simd.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/simd1.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/simd2.svg&size=auto 90%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/simd3.svg&size=auto 90%
 ---
 ### Uniprocessor
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/uniprocessor.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/uniprocessor.svg" height="400"/>
 ---
 ### Multiprocessor
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_mimd.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_mimd.svg" height="400"/>
 ---
 ### Multiprocessor: UMA
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/uma.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/uma.svg" height="400"/>
 ---
 ### Multiprocessor: NUMA
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/numa.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/numa.svg" height="400"/>
 ---
 ### Processor: VLIW
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/vliw.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/vliw.svg" height="400"/>
 ---
 ### Multi-Threading: Superscalar
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/superscalar.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/superscalar.svg" height="400"/>
 ---
 ### Multi-Threading: Coarse-Grained
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/coarse_mt.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/coarse_mt.svg" height="400"/>
 ---
 ### Multi-Threading: Fine-Grained
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/fine_mt.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/fine_mt.svg" height="400"/>
 ---
 ### Multi-Threading: Simultaneous
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/smt.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/smt.svg" height="400"/>
 ---
 ### Reacp: Multi-Threading
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/mt.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/mt.svg" height="400"/>
 ---
 
 ### GPU Architecture : Uniprocessor
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/uniprocessor.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/uniprocessor.svg" height="400"/>
 ---
 ### GPU Architecture : SIMD
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_simd1.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_simd1.svg" height="400"/>
 ---
 ### GPU Architecture : SIMD
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_simd2.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_simd2.svg" height="400"/>
 ---
 ### GPU Architecture : SIMD
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_simd3.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_simd3.svg" height="400"/>
 ---
 
 ### Example Heterogeneous SoCs
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/acecontext.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/acecontext.svg" height="400"/>
 ---
 ### Domain Specific Architecture
 
