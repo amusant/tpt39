@@ -74,3 +74,21 @@ https://www.khronos.org/registry/OpenCL/sdk/1.2/
 #### References
 https://www.khronos.org/assets/uploads/developers/library/2012-pan-pacific-road-show-June/OpenCL-Details-Taiwan_June-2012.pdf
 https://www.khronos.org/registry/OpenCL/sdk/1.2/
+### Debugger: MGD
+* in a405-xx.enst.fr (desktop) clone the git depot.
+* source init.sh > /dev/null
+* module load mali/4.4
+* mgd
+
+	* in odroid
+	* source init_odroid.sh
+	* mgddaemon
+	* make debug
+---
+### Performance Monitor: Streamline
+* run start_gator.sh in tpt39/
+	* cd tpt39; ./start_gator.sh&
+* in a405-XX.enst.fr
+	* $ source init.sh
+	* $ module load mali/4.4
+	* $ streamline
