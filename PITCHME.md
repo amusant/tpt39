@@ -94,11 +94,20 @@ to understand the context first
 <i class="fa fa-arrow-down" aria-hidden="true"> </i>
 * <span style="color:gray">Lab work. At the end of the week you should submit functional code. (10)</span>
 *  There will be a multiple-choice quiz on friday. (10)
+### Evaluation
+Marking Strategy for Labworks and Project: 
 
+
+1. Code Compiles (1) 
+2. Functional Code (1) 
+3. Code Quality/Modularity (1) 
+4. Performance Statistics (1) 
+5. Detailed Comparison of different Approches (1) 
 ---
 ### Let's Setup
 * PCs in this lab  a405-xx.enst.fr 
-* you can change the defautlt language at the startup screen 
+* Odroid Boards  a405-xx-arm.enst.fr 
+* you can change the default language at the startup screen 
 * For those using own laptops please  setup VPN.
 
 
