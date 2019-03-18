@@ -94,6 +94,7 @@ to understand the context first
 <i class="fa fa-arrow-down" aria-hidden="true"> </i>
 * <span style="color:gray">Lab work. At the end of the week you should submit functional code. (10)</span>
 *  There will be a multiple-choice quiz on friday. (10)
+---
 ### Evaluation
 Marking Strategy for Labworks and Project: 
 
