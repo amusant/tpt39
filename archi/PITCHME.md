@@ -144,9 +144,9 @@ draw it on board
 
 ---
 ### Recap : MMU
-#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/mmu.svg&size=auto 90%
+#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/mmu.svg&size=auto 90%
 <!-- .slide: data-background-transition="none" -->
-#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39//mmu1.svg&size=auto 90%
+#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39//fig/mmu1.svg&size=auto 90%
 ---
 
 ### Recap: MMu Operation
@@ -222,5 +222,7 @@ draw it on board
 ### Example Heterogeneous SoCs
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/acecontext.svg" height="400"/>
 ---
-### Domain Specific Architecture
+### Our SoC: Exynos 5422
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/exynos5422.svg" height="400"/>
+---
 
