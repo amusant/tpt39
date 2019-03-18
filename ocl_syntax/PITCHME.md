@@ -3,7 +3,7 @@
 
 ---
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/oclflow.svg" height="400"/>
----
+
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
 @[7-11](The OpenCL kernel.)
 @[37](Get Platform Ids.)
@@ -47,7 +47,7 @@
 @[64-68](Tear Down)
 https://www.khronos.org/registry/OpenCL/sdk/1.2/
 ---
-+++?image=assets/oclflow.svg&size=auto 90%
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/oclflow.svg" height="400"/>
 +++?code=ocl_syntax/src/vector_add.cpp&lang=c&title=Vector Addition
 @[118](Creating Context)
 @[119](Creating Command Queue)
