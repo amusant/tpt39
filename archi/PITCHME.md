@@ -144,9 +144,9 @@ draw it on board
 
 ---
 ### Recap : MMU
-#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/mmu.svg&size=auto 90%
+#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/mmu.svg&size=auto 90%
 <!-- .slide: data-background-transition="none" -->
-#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39//fig/mmu1.svg&size=auto 90%
+#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/mmu1.svg&size=auto 90%
 ---
 
 ### Recap: MMu Operation
