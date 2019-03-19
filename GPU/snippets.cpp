@@ -121,3 +121,11 @@ void checkError(int status, const char *msg) {
 	clGetEventProfilingInfo(kernel_event,CL_PROFILING_COMMAND_END,8,&end,&size);
 
 
+//  see https://www.khronos.org/registry/OpenCL/sdk/2.0/docs/man/xhtml/clEnqueueUnmapMemObject.html
+clEnqueueUnmapMemObject(queue,input_a_buf,input_a,0,NULL,NULL);
+clEnqueueUnmapMemObject(queue,input_b_buf,input_b,0,NULL,NULL);
+
+
+status = clEnqueueNDRangeKernel(queue, kernel, 1, NULL,
+         &global_work_size, NULL, 3, write_event, &kernel_event);
+checkError(status, "Failed to launch kernel");
