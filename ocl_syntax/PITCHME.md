@@ -5,12 +5,6 @@
 ### OpenCL Programming Model
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/oclflow.svg" height="400"/>
 
----
-### OpenCL Memory Model
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/opencl_mem.svg" height="400"/>
----
-### OpenCL Work Items
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/work_items.svg" height="400"/>
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
 @[7-11](The OpenCL kernel.)
 @[37](Get Platform Ids.)
@@ -55,6 +49,12 @@
 https://www.khronos.org/registry/OpenCL/sdk/1.2/
 ---
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/oclflow.svg" height="400"/>
+---
+### OpenCL Memory Model
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/opencl_mem.svg" height="400"/>
+---
+### OpenCL Work Items
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/work_items.svg" height="400"/>
 +++?code=ocl_syntax/src/vector_add.cpp&lang=c&title=Vector Addition
 @[118](Creating Context)
 @[119](Creating Command Queue)
