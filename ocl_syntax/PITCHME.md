@@ -7,10 +7,10 @@
 
 ---
 ### OpenCL Memory Model
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/opencl_mem.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/opencl_mem.svg" height="400"/>
 ---
 ### OpenCL Work Items
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/work_items.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/work_items.svg" height="400"/>
 +++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
 @[7-11](The OpenCL kernel.)
 @[37](Get Platform Ids.)
