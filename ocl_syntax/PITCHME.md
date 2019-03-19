@@ -71,7 +71,7 @@ https://www.khronos.org/registry/OpenCL/sdk/1.2/
 +++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Setting Kernel Arguments
 @[164-173](Setting Kernel Arguments)
 +++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Launching Job
-@[174-175](clEnqueueNDRangeKernel)
+@[174-177](clEnqueueNDRangeKernel)
 +++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Reading back the result.
 @[178-179](output: Host Buffer,output_buf: CL Buffer)
 +++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Reading back the result.
