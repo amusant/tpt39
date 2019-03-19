@@ -81,6 +81,12 @@ GPU Architecture : Evolution
 - <span style="font-size:0.4em">https://community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-3---the-midgard-shader-core 
 - <span style="font-size:0.4em">https://community.arm.com/graphics/f/discussions/6557/mali-t628-gpu-activity-in-streamline 
 ---
+### Mali Midgard Arithmetic Pipeline
+<img src="assets/Mali_SIMD_575px.png" height="400"/>
+---
+### Mali Midgard Arithmetic Pipeline
+<img src="assets/Midgard_Arithmetic_Pipe_575px.png" height="400"/>
+---
 ### Example Heterogeneous SoCs
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/acecontext.svg" height="400"/>
 ---
