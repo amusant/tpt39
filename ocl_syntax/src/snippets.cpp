@@ -83,3 +83,41 @@ void checkError(int status, const char *msg) {
 }
 
 
+	input_a_buf = clCreateBuffer(context, CL_MEM_ALLOC_HOST_PTR,
+       N* sizeof(float), NULL, &status);
+    checkError(status, "Failed to create buffer for input A");
+
+    input_b_buf = clCreateBuffer(context, CL_MEM_ALLOC_HOST_PTR,
+        N* sizeof(float), NULL, &status);
+    checkError(status, "Failed to create buffer for input B");
+
+    // Output buffer.
+    output_buf = clCreateBuffer(context, CL_MEM_ALLOC_HOST_PTR,
+        N* sizeof(float), NULL, &status);
+    checkError(status, "Failed to create buffer for output");
+
+	// Map to host memory
+	input_a = (float *)clEnqueueMapBuffer(queue, input_a_buf, CL_TRUE,
+        CL_MAP_WRITE,0, N* sizeof(float), 0, NULL, &write_event[0],errcode);
+    checkError(status, "Failed to transfer input A");
+
+    input_b = (float *)clEnqueueMapBuffer(queue, input_b_buf, CL_TRUE,
+        CL_MAP_WRITE, 0,N* sizeof(float), 0, NULL, &write_event[1],errcode);
+    checkError(status, "Failed to transfer input B");
+
+	// Map to host memory
+    output = (float *)clEnqueueMapBuffer(queue, output_buf, CL_TRUE,
+        CL_MAP_READ, 0,N* sizeof(float),  1, &kernel_event, &finish_event,errcode);
+    checkError(status, "Failed to transfer output");
+
+
+
+	// Wait for a specific event
+	status=clWaitForEvents(1,&kernel_event);
+    checkError(status, "Failed  wait");
+
+	// Profile Events
+	clGetEventProfilingInfo(kernel_event,CL_PROFILING_COMMAND_START,8,&start,&size);
+	clGetEventProfilingInfo(kernel_event,CL_PROFILING_COMMAND_END,8,&end,&size);
+
+

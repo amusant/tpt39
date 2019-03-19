@@ -78,11 +78,10 @@ https://www.khronos.org/registry/OpenCL/sdk/1.2/
 @[206-208](Query for the maximum work group size)
 ---
 +++?code=ocl_syntax/src/snippets.cpp&lang=c&title=Snippets
-@[118](Creating Context)
-@[119](Creating Command Queue)
-@[119](Creating Command Queue)
-@[129](Build Program)
-@[131](Create Kernel)
+@[86-97](Create Buffer in the Host Accesible Memory)
+@[99-111](Map to host virtual address space)
+@[115-117](Wait for a Prticular Event)
+@[119-121](Profiling an Event)
 ---
 #### References
 https://www.khronos.org/assets/uploads/developers/library/2012-pan-pacific-road-show-June/OpenCL-Details-Taiwan_June-2012.pdf
