@@ -66,8 +66,8 @@ https://www.khronos.org/registry/OpenCL/sdk/1.2/
 @[137-138](Creating CL Buffers input (read))
 @[142-143](Creating CL Buffers output (write))
 +++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Copying Host Buffers to CL buffers
-@[153-154](input_a: Host Buffer, input_a_buf: CL Buffer)
-@[157-158](input_b: Host Buffer,input_b_buf: CL Buffer)
+@[153-155](input_a: Host Buffer, input_a_buf: CL Buffer)
+@[157-159](input_b: Host Buffer,input_b_buf: CL Buffer)
 +++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Setting Kernel Arguments
 @[164-170](Setting Kernel Arguments)
 +++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Launching Job
