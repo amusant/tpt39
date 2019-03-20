@@ -8,22 +8,29 @@
 - Peak Performance P in Flops/S
 - Perf =min( p, B x I)
 ---
-### Roofline
+### Roofline 1 core
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/roofline0.svg" height="400"/>
 ---
-### Roofline
+### Roofline 4 core
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/roofline1.svg" height="400"/>
 ---
-### Roofline
+### Roofline All cores
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/roofline2.svg" height="400"/>
 ---
-### Roofline
+### Roofline GPU
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/roofline3.svg" height="400"/>
+---
+### Roofline 70% DDR Efficiency
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/roofline_70.svg" height="400"/>
 
 ---
 ### GPU and OpenCL Programming Model
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_refined_multi.svg" width="400"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/work_items.svg" height="400"/>
+---
+### Matrix Multiplication Tiling
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/tiling.svg" height="400"/>
+
 ---
 ### Parallelizing codes: Techniques
 

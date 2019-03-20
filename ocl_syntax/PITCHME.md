@@ -83,6 +83,59 @@ https://www.khronos.org/registry/OpenCL/sdk/1.2/
 @[115-117](Wait for a Prticular Event)
 @[119-121](Profiling an Event)
 ---
+### Synchronization: OpenCL events
+- CL_EVENT
+	- 	CL_QUEUED
+	-	CL_SUBMITED
+	-	CL_RUNNING
+	-	CL_COMPLETE
+	- 	ERROR_CODE
+
+- Useful Functions:
+	- clWaitForEvents
+---
+### Expressing Paralleism
+- NDRangeKernel |
+- global_work_size() defines that total no. of elements. |
+- if each element is independent it is also the number of work_items. |
+- each work item can be associated with one thread. |
+---
+### Expressing Paralleism
+- the global work can be separated into groups.
+- get_group_id() gives the id of the group. 
+- get_local_id() gives the id of the local work item within the group.
+---
+
+### Work Item Related Functions:
+- get_work_dim()
+- get_global_size()
+- get_global_id()
+- get_local_size()
+- get_local_id()
+- get_num_groups()
+- get_group_id()
+- get_global_offset() 
+
+---
+### Synchronization Functions: Mem Fence
+- mem_fence: all memory accesses preceding mem_fence must end before starting memory accesses following mem_fence. |
+- read_mem_fence : only for loads. |
+- write_mem_fence: only for stores. | 
+	- arguments: CLK_LOCAL_MEM_FENCE: only load/stores to local memory. |
+	- arguments: CLK_GLOBAL_MEM_FENCE: only load/stores to global memory. |
+---
+### Synchronization Functions: Barrier
+* All work-items in a work-group  must execute this function before the work group can proceed. |
+* Barrier also issues a mem_fence either to CLK_LOCAL_MEM_FENCE or CLK_GLOBAL_MEM_FENCE. |
+* There is no way to synchronize work items in different work groups. |
+---
+### Synchronization: OpenCL Command Barriers
+-	Command Barrier
+	-	cl_int clEnqueueBarrier (	cl_command_queue command_queue)
+	-	all queued commands in command_queue before barrier must finish
+		before starting the commands after barrier.
+
+---
 #### References
 https://www.khronos.org/assets/uploads/developers/library/2012-pan-pacific-road-show-June/OpenCL-Details-Taiwan_June-2012.pdf
 https://www.khronos.org/registry/OpenCL/sdk/1.2/
