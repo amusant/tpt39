@@ -24,12 +24,15 @@
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/roofline_70.svg" height="400"/>
 
 ---
-### GPU and OpenCL Programming Model
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_refined_multi.svg" width="400"/> 
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/work_items.svg" height="400"/>
+### Roofline Matrix Multiplication
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/roofline_mm.svg" height="400"/>
 ---
 ### Matrix Multiplication Tiling
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/tiling.svg" height="400"/>
+---
+### GPU and OpenCL Programming Model
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_refined_multi.svg" width="400"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/work_items.svg" height="400"/>
 
 ---
 ### Parallelizing codes: Techniques
