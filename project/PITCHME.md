@@ -67,7 +67,7 @@
 ---
 ### Project: Useful functions
 * to copy opencv mat to  an array:
-	* memcpy(cameraFrame.data, input, 3\*ROWS\*COLS\*sizeof(char));
+	* memcpy(input,cameraFrame.data, 3\*ROWS\*COLS\*sizeof(char));
 * to pad:
 	- copyMakeBorder( src, dst, top, bottom, left, right, borderType, value );
 	- <span style="font-size:0.4em">https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/copyMakeBorder/copyMakeBorder.html
