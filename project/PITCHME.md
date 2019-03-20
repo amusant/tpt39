@@ -27,7 +27,8 @@
 - We saw a SoC archietcture with and some deatils about Mali T628. |
 - We know how to launch a OpenCL kernel |
 	- Platfrom-> Device-> Context-> Command Queue -> compile kernel |
-	- Create Buffers-> Pass Buffers to GPU  |
+	- Create Buffers-> Copy Buffers from CPU to  GPU  |
+	- Create Buffers-> Map Buffers  |
 	- Launch Kernel-> readback result buffers |
 ---
 ### What do we know so far ?
@@ -77,6 +78,12 @@
 * Mat Convert data type:
 	- <span style="font-size:0.4em">https://docs.opencv.org/2.4/modules/core/doc/basic_structures.html#mat-convertto
 ---
+### Project: 
+* Can do direct convolution.
+* Can do im2col + Matrix multiplication.
+* Try processing in Batches to reduce OpennCL launching overhead.
+* Get performance statistics.
+---
 ### Debugger: MGD
 * in a405-xx.enst.fr (desktop) clone the git depot.
 * source init.sh > /dev/null
@@ -90,7 +97,7 @@
 ---
 ### Performance Monitor: Streamline
 * run start_gator.sh in tpt39/
-	* cd tpt39; ./start_gator.sh&
+	* cd tpt39; ./start_gator_on_odroid.sh&
 * in a405-XX.enst.fr
 	* $ source init.sh
 	* $ module load mali/4.4
