@@ -2,6 +2,14 @@
 ##### (Athens Week 18-22 March, 2019) 
 
 ---
+### Performance:Roofline
+- Arithmetic Intensity I = Flops/Bytes
+- Peak Bandwidth B = Bytes/S
+- Peak Performance P in Flops/S
+- Perf =min( p, B x I)
+
+---
+### GPU and OpenCL Programming Model
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_refined_multi.svg" width="400"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/work_items.svg" height="400"/>
 ---
