@@ -1,5 +1,5 @@
 ### Accelerator Design with OpenCL
-##### (Athens Week 19-24 March, 2018) 
+##### (Athens Week 18-22 March, 2019) 
 ---
 ### FPGA Architecture: Overview
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/FPGAsArch.svg" height="400"/>
