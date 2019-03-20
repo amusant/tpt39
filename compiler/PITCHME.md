@@ -7,6 +7,18 @@
 - Peak Bandwidth B = Bytes/S
 - Peak Performance P in Flops/S
 - Perf =min( p, B x I)
+---
+### Roofline
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/roofline0.svg" height="400"/>
+---
+### Roofline
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/roofline1.svg" height="400"/>
+---
+### Roofline
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/roofline2.svg" height="400"/>
+---
+### Roofline
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/roofline1.svg" height="400"/>
 
 ---
 ### GPU and OpenCL Programming Model
