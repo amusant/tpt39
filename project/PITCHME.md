@@ -45,13 +45,13 @@
 - Vector addition with size N 
 - Calculate speedup with varying N.
 - Measure Flops/s.
-- Calculate the average of a vector.
-- Calculate the average of a vector using workgroups.
 - Measure speedup.
 ---
 ### LAB WORK 2
 - Write a Matrix multiplication routing with two matrices of size M x K, K x N.
 - where M=K=N
+- measure speed up
+- Do matrix multiplication using workgroups.
 - measure speed up
 - use streamline to see various statistics about Cache/TLB miss.
 - Measure Flops/S.
