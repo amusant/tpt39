@@ -5,8 +5,8 @@
 ### Performance:Roofline
 - Arithmetic Intensity I = Flops/Bytes
 - Peak Bandwidth B = Bytes/S
-- Peak Performance P in Flops/S
-- Perf =min( p, B x I)
+- Peak Performance pi in Flops/S
+- Perf =min( pi, B x I)
 ---
 ### Roofline 1 core
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/roofline0.svg" height="400"/>
