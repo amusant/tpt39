@@ -2,16 +2,16 @@
 ##### (Athens Week 18-22 March, 2019) 
 ---
 ### FPGA Architecture: Overview
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/FPGAsArch.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/FPGAsArch.svg" height="400"/>
 ---
 ### FPGA Architecture: Basic Logic Element
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/BLE.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/BLE.svg" height="400"/>
 ---
 ### FPGA Architecture: Configurable Logic Block (CLB/LAB)
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/cluster.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/cluster.svg" height="400"/>
 ---
 ### FPGA Architecture: Routing
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/FPGAroutingArch.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/FPGAroutingArch.svg" height="400"/>
 ---
 ### FPGA Architecture: Hard Macros
 <img src="assets/stxv-floorplan.png" height="400"/>
@@ -26,7 +26,7 @@
 * Schematic
 ---
 ### FPGA : CAD FLOW
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/cad.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/cad.svg" height="400"/>
 ---
 ### FPGA: Applications
 * Prototyping, ASIC Emulation |
@@ -57,10 +57,10 @@
 * OpenCL can be use to program both PCI-X cards and SOcFPGAs.
 ---
 ### SoCFPGA Architecture: Altera Cyclone V
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/cycloneV.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/cycloneV.svg" height="400"/>
 ---
 ### SoCFPGA Architecture: Xilinx Ultrascale
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/ultrascale.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/ultrascale.svg" height="400"/>
 ---
 ### FPGA Architecture: example
 * PCI-X based card Stratix 10
