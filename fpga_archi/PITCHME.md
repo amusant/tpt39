@@ -54,7 +54,7 @@
 * FPGAs on the same die as Chip Multi-Processors
 	- Altera/Intel Cyclone V, Arria V, Stratix 10
 	- Xilix Zynq, Zynq Ultrascale
-* OpenCL can be use to program both PCI-X cards and SOcFPGAs.
+* OpenCL can be use to program both PCI-X cards and SocFPGAs.
 ---
 ### SoCFPGA Architecture: Altera Cyclone V
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/cycloneV.svg" height="400"/>
@@ -85,10 +85,10 @@
 - Extensions: FIFO stream. |
 ---
 ### OpenCL for FPGAs: Streams
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/opencl_fpga_demo.svg&size=auto 40%
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/opencl_fpga_demo1.svg&size=auto 40%
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/opencl_fpga_demo2.svg&size=auto 40%
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/opencl_fpga_demo3.svg&size=auto 40%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/opencl_fpga_demo.svg&size=auto 40%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/opencl_fpga_demo1.svg&size=auto 40%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/opencl_fpga_demo2.svg&size=auto 40%
++++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/opencl_fpga_demo3.svg&size=auto 40%
 	
 ---
 
