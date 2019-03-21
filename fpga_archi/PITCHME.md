@@ -91,7 +91,16 @@
 +++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/opencl_fpga_demo3.svg&size=auto 40%
 	
 ---
+## Differences with MALI OpenCL
+* Core and SIMD width are configurable.
+* Use of Streams.
+* No Cache .....
+	* the current platform doesn't use cache coherence 
+* But More Local Memory
 
+* MMU ? what could be the problem ?
+
+  
 ### OpenCL for FPGAs: LAB WORK
 * setup
 	* git pull
