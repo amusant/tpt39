@@ -294,12 +294,12 @@ cl_platform_id findPlatform(const char *platform_name_search) {
   // Get number of platforms.
   cl_uint num_platforms;
   status = clGetPlatformIDs(0, NULL, &num_platforms);
-  checkError(status, "Query for number of platforms failed");
+  checkError_aocl(status, "Query for number of platforms failed");
 
   // Get a list of all platform ids.
   scoped_array<cl_platform_id> pids(num_platforms);
   status = clGetPlatformIDs(num_platforms, pids, NULL);
-  checkError(status, "Query for all platform ids failed");
+  checkError_aocl(status, "Query for all platform ids failed");
 
   // For each platform, get name and compare against the search string.
   for(unsigned i = 0; i < num_platforms; ++i) {
@@ -324,11 +324,11 @@ std::string getPlatformName(cl_platform_id pid) {
 
   size_t sz;
   status = clGetPlatformInfo(pid, CL_PLATFORM_NAME, 0, NULL, &sz);
-  checkError(status, "Query for platform name size failed");
+  checkError_aocl(status, "Query for platform name size failed");
 
   scoped_array<char> name(sz);
   status = clGetPlatformInfo(pid, CL_PLATFORM_NAME, sz, name, NULL);
-  checkError(status, "Query for platform name failed");
+  checkError_aocl(status, "Query for platform name failed");
 
   return name.get();
 }
@@ -339,11 +339,11 @@ std::string getDeviceName(cl_device_id did) {
 
   size_t sz;
   status = clGetDeviceInfo(did, CL_DEVICE_NAME, 0, NULL, &sz);
-  checkError(status, "Failed to get device name size");
+  checkError_aocl(status, "Failed to get device name size");
 
   scoped_array<char> name(sz);
   status = clGetDeviceInfo(did, CL_DEVICE_NAME, sz, name, NULL);
-  checkError(status, "Failed to get device name");
+  checkError_aocl(status, "Failed to get device name");
 
   return name.get();
 }
@@ -353,11 +353,11 @@ cl_device_id *getDevices(cl_platform_id pid, cl_device_type dev_type, cl_uint *n
   cl_int status;
 
   status = clGetDeviceIDs(pid, dev_type, 0, NULL, num_devices);
-  checkError(status, "Query for number of devices failed");
+  checkError_aocl(status, "Query for number of devices failed");
 
   cl_device_id *dids = new cl_device_id[*num_devices];
   status = clGetDeviceIDs(pid, dev_type, *num_devices, dids, NULL);
-  checkError(status, "Query for device ids");
+  checkError_aocl(status, "Query for device ids");
 
   return dids;
 }
@@ -367,14 +367,14 @@ cl_program createProgramFromBinary(cl_context context, const char *binary_file_n
   // Early exit for potentially the most common way to fail: AOCX does not exist.
   if(!fileExists(binary_file_name)) {
     printf("AOCX file '%s' does not exist.\n", binary_file_name);
-    checkError(CL_INVALID_PROGRAM, "Failed to load binary file");
+    checkError_aocl(CL_INVALID_PROGRAM, "Failed to load binary file");
   }
 
   // Load the binary.
   size_t binary_size;
   scoped_array<unsigned char> binary(loadBinaryFile(binary_file_name, &binary_size));
   if(binary == NULL) {
-    checkError(CL_INVALID_PROGRAM, "Failed to load binary file");
+    checkError_aocl(CL_INVALID_PROGRAM, "Failed to load binary file");
   }
 
   scoped_array<size_t> binary_lengths(num_devices);
@@ -389,9 +389,9 @@ cl_program createProgramFromBinary(cl_context context, const char *binary_file_n
 
   cl_program program = clCreateProgramWithBinary(context, num_devices, devices, binary_lengths,
       (const unsigned char **) binaries.get(), binary_status, &status);
-  checkError(status, "Failed to create program with binary");
+  checkError_aocl(status, "Failed to create program with binary");
   for(unsigned i = 0; i < num_devices; ++i) {
-    checkError(binary_status[i], "Failed to load binary for device");
+    checkError_aocl(binary_status[i], "Failed to load binary for device");
   }
 
   return program;
@@ -498,9 +498,9 @@ cl_ulong getStartEndTime(cl_event event) {
 
   cl_ulong start, end;
   status = clGetEventProfilingInfo(event, CL_PROFILING_COMMAND_START, sizeof(start), &start, NULL);
-  checkError(status, "Failed to query event start time");
+  checkError_aocl(status, "Failed to query event start time");
   status = clGetEventProfilingInfo(event, CL_PROFILING_COMMAND_END, sizeof(end), &end, NULL);
-  checkError(status, "Failed to query event end time");
+  checkError_aocl(status, "Failed to query event end time");
 
   return end - start;
 }

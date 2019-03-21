@@ -24,4 +24,4 @@ build:
 
 # Standard make targets
 clean :
-	@rm -f *.o $(KERNEL)
+	@rm -rf *.o $(KERNEL)
