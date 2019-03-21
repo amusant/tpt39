@@ -97,7 +97,7 @@ int main()
 
 
 //--------------------------------------------------------------------
-const unsigned N = 50;
+const unsigned N = 4096;
 float *input_a=(float *) malloc(sizeof(float)*N);
 float *input_b=(float *) malloc(sizeof(float)*N);
 float *output=(float *) malloc(sizeof(float)*N);

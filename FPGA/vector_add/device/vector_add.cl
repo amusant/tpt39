@@ -1,4 +1,8 @@
  // ACL kernel for adding two input vectors
+ 
+__attribute__((num_compute_units(32)))
+__attribute__((num_simd_work_items(4)))
+__attribute__((reqd_work_group_size(256,1,1)))
 __kernel void vector_add(__global const float *x, 
                         __global const float *y, 
                         __global float *restrict z)
@@ -7,6 +11,6 @@ __kernel void vector_add(__global const float *x,
     int index = get_global_id(0);
 
     // add the vector elements
-    z[index] = x[index] + y[index];
+    z[index] = x[index] * y[index];
 }
 
