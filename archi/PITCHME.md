@@ -75,7 +75,7 @@ draw it on board
 - Processor 
 ---
 ### DRAM Operation: A single DRAM Bank
-<img src="http://raw.githubusercontent.com/amusant/tpt39/tmpdev/assets/fig/ddr_bank.svg" height="400"/>
+<img src="https://github.com/amusant/tpt39/blob/tmpdev/assets/fig/ddr_bank.svg" height="400"/>
 ---
 ### DRAM Operation: Banks 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/ddr.svg" height="400"/>
