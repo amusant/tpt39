@@ -84,6 +84,10 @@
 * Try processing in Batches to reduce OpennCL launching overhead.
 * Get performance statistics.
 ---
+### Project/Lab works
+* git clone git@github.com:amusant/tpt39.git
+* use sshfs to mirror teh same directory on both desktop and GPU card.
+	* sshfs <odroid-ip>:~/tpt39 ./tpt39
 ### Debugger: MGD
 * in tp-3a209-XX.enst.fr (desktop) clone the git depot. 
 * you can also use  the sshfs with the odroid board.
