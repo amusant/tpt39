@@ -86,7 +86,7 @@
 ---
 ### Project/Lab works
 * git clone git@github.com:amusant/tpt39.git
-* use sshfs to mirror teh same directory on both desktop and GPU card.
+* use sshfs to mirror the same directory on both desktop and GPU card.
 	* sshfs [odroid-ip]:~/tpt39 ./tpt39
 ---
 ### Debugger: MGD
