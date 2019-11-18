@@ -1,5 +1,5 @@
 ### Accelerator Design with OpenCL
-##### (Athens Week 18-22 March, 2019) 
+##### (Athens Week 18-22 Nov, 2019) 
 ---
 ### What do we know so far ?
 - There are three types of parallelism |
@@ -85,8 +85,9 @@
 * Get performance statistics.
 ---
 ### Debugger: MGD
-* in a405-xx.enst.fr (desktop) clone the git depot.
-* source init.sh > /dev/null
+* in tp-3a209-XX.enst.fr (desktop) clone the git depot. 
+* you can also use  the sshfs with the odroid board.
+* source init.sh 
 * module load mali/4.4
 * mgd
 
