@@ -1,5 +1,5 @@
 ### Accelerator Design with OpenCL
-##### (Athens Week 18-22 March, 2018) 
+##### (Athens Week 18-22 Nov, 2018) 
 ---
 ### Parallelism
 
