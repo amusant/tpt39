@@ -93,7 +93,6 @@
 * in tp-3a209-XX.enst.fr (desktop) clone the git depot. 
 * you can also use  the sshfs with the odroid board.
 * source init.sh 
-* module load mali/4.4
 * mgd
 
 	* in odroid
