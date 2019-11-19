@@ -101,11 +101,11 @@
 	* make debug
 ---
 ### Performance Monitor: Streamline
-* run start_gator.sh in tpt39/
+
+*  in odroid  run start_gator.sh in tpt39/
 	* cd tpt39; ./start_gator_on_odroid.sh&
-* in a405-XX.enst.fr
+* in tp-3a209-XX.enst.fr
 	* $ source init.sh
-	* $ module load mali/4.4
 	* $ streamline
 ---
 ### Domain Specific Architecture
