@@ -87,6 +87,15 @@ GPU Architecture : Evolution
 ### Mali Midgard Arithmetic Pipeline
 <img src="assets/Midgard_Arithmetic_Pipe_575px.png" height="400"/>
 ---
+### Our GPU : Mali T628
+- Each Thread has its own Program Counter. -> they can diverge.
+- Total no. of threads is limited by configurable register space.
+- Find out the maximum no. threads that can be mapped to a core.
+- There is no local (scratchpad) memory.  
+- for more info 
+	- <span style="font-size:0.4em">https://www.iwocl.org/wp-content/uploads/iwocl-2014-workshop-Tim-Hartley.pdf
+
+---
 ### Example Heterogeneous SoCs
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/acecontext.svg" height="400"/>
 ---
