@@ -90,6 +90,9 @@ GPU Architecture : Evolution
 ### Example Heterogeneous SoCs
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/acecontext.svg" height="400"/>
 ---
+### Our SoC Exynos 5422
+<img src="assets/odroid.png" height="400"/>
+---
 ### LAB WORK 1
 - Vector addition with size N 
 - Calculate speedup with varying N.
