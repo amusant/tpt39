@@ -141,6 +141,7 @@ https://www.khronos.org/registry/OpenCL/sdk/1.2/
 ---
 +++?code=ocl_syntax/src/optimized.cl&lang=c&title=Vector Operations
 @[9-12](Vector-4  load )
+@[13-14](Dot Operations)
 ---
 #### References
 https://www.khronos.org/assets/uploads/developers/library/2012-pan-pacific-road-show-June/OpenCL-Details-Taiwan_June-2012.pdf
