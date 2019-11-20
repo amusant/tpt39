@@ -11,7 +11,7 @@ kernel void matrix_multiply(global float4* const A,
 		float4 b0 = B[ 2*j *nv4+k];
 		float4 b1 = B[(2*j+1)*nv4+k];
 		ab += (float4)(dot(a0 , b0), dot(a0 , b1),
-						dot(a1 , b0), dot(a1 , b1)); i
+						dot(a1 , b0), dot(a1 , b1)); 
 	}
 	 uint ix = 2*i*(n>>1) + j;
 	 C[ix] = ab.s01;
