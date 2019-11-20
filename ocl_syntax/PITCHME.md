@@ -139,6 +139,9 @@ https://www.khronos.org/registry/OpenCL/sdk/1.2/
 		before starting the commands after barrier.
 
 ---
++++?code=ocl_syntax/src/optimized.cl&lang=c&title=Vector Operations
+@[9-12](Vector-4  load )
+---
 #### References
 https://www.khronos.org/assets/uploads/developers/library/2012-pan-pacific-road-show-June/OpenCL-Details-Taiwan_June-2012.pdf
 https://www.khronos.org/registry/OpenCL/sdk/1.2/
