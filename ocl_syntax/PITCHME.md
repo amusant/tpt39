@@ -117,6 +117,9 @@ https://www.khronos.org/registry/OpenCL/sdk/1.2/
 - get_global_offset() 
 
 ---
+### Mapping of Work Items
+<img src="assets/exec_model.png" height="400"/>
+---
 ### Synchronization Functions: Mem Fence
 - mem_fence: all memory accesses preceding mem_fence must end before starting memory accesses following mem_fence. |
 - read_mem_fence : only for loads. |
