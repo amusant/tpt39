@@ -109,6 +109,6 @@
 	* $ streamline
 ---
 
-@css[title-top-right](Embed Video)
+@css[title-top-right](Mythbusters Demo GPU versus CPU)
 
-![Gravity](https://player.vimeo.com/video/125471012)
+![Gravity](https://www.youtube.com/watch?v=-P28LKWTzrI)
