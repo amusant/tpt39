@@ -108,5 +108,6 @@
 	* $ source init.sh
 	* $ streamline
 ---
-### Domain Specific Architecture
+### MythBusters GPU Vs. CPU
+![Video](https://www.youtube.com/watch?v=-P28LKWTzrI)
 
