@@ -109,5 +109,5 @@
 	* $ streamline
 ---
 ### MythBusters GPU Vs. CPU
-![Video](https://www.youtube.com/watch?v=-P28LKWTzrI)
+---?video=https://www.youtube.com/watch?v=-P28LKWTzrI
 
