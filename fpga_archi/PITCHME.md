@@ -1,5 +1,5 @@
 ### Accelerator Design with OpenCL
-##### (Athens Week 18-22 March, 2019) 
+##### (Athens Week 18-22 Nov, 2019) 
 ---
 ### FPGA Architecture: Overview
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/FPGAsArch.svg" height="400"/>
@@ -83,6 +83,18 @@
 ### OpenCL for FPGAs
 - each loopnest is transformed to a hardware pipeline. |
 - Extensions: FIFO stream. |
+---
+### OpenCL for FPGAs
+<img src="assets/fpga_opencl.png" height="400"/>
+---
+### OpenCL for FPGAs
+<img src="assets/fpga_opencl1.png" height="400"/>
+---
+### OpenCL for FPGAs
+<img src="assets/fpga_opencl2.png" height="400"/>
+---
+### OpenCL for FPGAs
+<img src="assets/fpga_streams.png" height="400"/>
 ---
 ### OpenCL for FPGAs: Streams
 +++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/opencl_fpga_demo.svg&size=auto 40%

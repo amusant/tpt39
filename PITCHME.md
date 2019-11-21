@@ -1,5 +1,5 @@
 ### Accelerator Design with OpenCL
-##### (Athens Week 18-22 March, 2019) 
+##### (Athens Week 18-22 Nov, 2019) 
 ---
 ### prerequisites
 
