@@ -108,6 +108,7 @@
 	* $ source init.sh
 	* $ streamline
 ---
-### MythBusters GPU Vs. CPU
----?video=https://www.youtube.com/watch?v=-P28LKWTzrI
 
+@css[title-top-right](Embed Video)
+
+![Gravity](https://player.vimeo.com/video/125471012)
