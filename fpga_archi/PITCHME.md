@@ -87,13 +87,13 @@
 ### OpenCL for FPGAs
 <img src="assets/fpga_opencl.png" height="400"/>
 ---
-### OpenCL for FPGAs
+### OpenCL for FPGAs : Loop Mapped to hardware
 <img src="assets/fpga_opencl1.png" height="400"/>
 ---
-### OpenCL for FPGAs
+### OpenCL for FPGAs : Loop Mapped to hardware
 <img src="assets/fpga_opencl2.png" height="400"/>
 ---
-### OpenCL for FPGAs
+### OpenCL for FPGAs:Streams
 <img src="assets/fpga_streams.png" height="400"/>
 ---
 ### OpenCL for FPGAs: Streams
