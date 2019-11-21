@@ -115,7 +115,6 @@ unsigned num_devices = 0;
 	      input_a[j] = rand_float();
 	      input_b[j] = rand_float();
 	      ref_output[j] = input_a[j] + input_b[j];
-	      //printf("ref %f\n",ref_output[j]);
 	    }
 	time (&end);
 	diff = difftime (end,start);

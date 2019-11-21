@@ -2,7 +2,7 @@ KERNEL = vector_add
 SRCS = main.cpp
 SRCS_FILES = $(foreach F, $(SRCS), host/src/$(F))
 COMMON_FILES = ./common/src/AOCL_Utils.cpp
-LIB_PATH=/comelec/softs/opt/altera/altera17.0/hld/board/s5_ref/linux64/lib:/comelec/softs/opt/altera/altera17.0/hld/host/linux64/lib:./${KERNEL}
+LIB_PATH=/comelec/softs/opt/altera/altera17.1/hld/board/s5_ref/linux64/lib:/comelec/softs/opt/altera/altera17.1/hld/host/linux64/lib:./${KERNEL}
 # arm cross compiler
 CROSS-COMPILE = 
 CL=aoc
@@ -11,7 +11,7 @@ AOCL_COMPILE_CONFIG=$(shell aocl compile-config) -I./common/inc
 AOCL_LINK_CONFIG=$(shell aocl link-config)  -lacl_emulator_kernel_rt
 
 cl_compile:
-	${CL} -march=emulator -cl-opt-disable  --profile device/${KERNEL}.cl
+	${CL} -march=emulator -cl-opt-disable   device/${KERNEL}.cl
 all : 
 	$(CROSS-COMPILE)g++ $(SRCS_FILES) $(COMMON_FILES) -o $(KERNEL).exe  $(AOCL_COMPILE_CONFIG) $(AOCL_LINK_CONFIG)
 
