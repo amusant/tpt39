@@ -80,6 +80,8 @@
 	- Dual Core ARM Cortex R5
 	- ARM Mali 400 MP2
 ---
+### OpenCL for GPUs: Analysis
+---
 ### OpenCL for FPGAs
 ---
 ### OpenCL for FPGAs
