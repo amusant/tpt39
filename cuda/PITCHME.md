@@ -7,6 +7,9 @@
 ---
 ### CUDA Execution Model
 <img src="assets/grid-of-thread-blocks.png" height="400"/>
+---
++++?code=cuda/vectorAdd_kernel.cu&lang=c&title=Creating and Compiling Kernel
+@[37-41](Creating and Compiling Kernel)
 +++?code=cuda/nvrtc_helper.h&lang=c&title=Creating and Compiling Kernel
 @[108-112](Creating and Compiling Kernel)
 +++?code=cuda/vectorAdd.cpp&lang=c&title=Creating and Allocating Buffers
