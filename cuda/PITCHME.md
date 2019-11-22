@@ -8,3 +8,6 @@
 ### CUDA Execution Model
 <img src="assets/grid-of-thread-blocks.png" height="400"/>
 ---
+
++++?code=cuda/vectorAdd.cpp&lang=c&title=clCreateProgramWithSource
+@[87-97](Create Program from Source)
