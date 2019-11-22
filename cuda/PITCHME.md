@@ -20,4 +20,6 @@
 @[106-122](Launching CUDA Kernel)
 +++?code=cuda/vectorAdd.cpp&lang=c&title=Copy output Data from Device to Host
 @[127-128](Copy output Data from Device to Host)
++++?code=cuda/vectorAdd.cpp&lang=c&title=Release Everything
+@[140-143](CUDA free)
 ---
