@@ -1,13 +1,14 @@
 theme-override : assets/css/PITCHME.css 
 transition: none
 
-theme-background: [ "#172A3B" ]
-theme-headline: [ "Montserrat", "#A6AFE3", "none", "#FFFFFF", "100", "120", "15" ]
-theme-byline: [ "Montserrat", "#FFFFFF", "none", "#A6AFE3", "100", "110", "15" ]
-theme-text: [ "Ubuntu", "#FFFFFF", "none", "#F9F871", "100", "100", "15" ]
+theme-background: [ "#FFF" ]
+theme-headline: [ "Montserrat", "#232B2B", "none", "#E67E22", "100", "120", "15" ]
+theme-byline: [ "Montserrat", "#232B2B", "none", "#E67E22", "100", "110", "15" ]
+theme-text: [ "Ubuntu", "#000", "none", "#E67E22", "100", "100", "15" ]
 theme-links: [ "#5289F7", "#5254F7" ]
 theme-code: [ "Source Code Pro", "100", "120" ]
 highlight: atom-one-light
-theme-controls: [ "null" ]
+theme-controls: [ "#C0C0C0" ]
 theme-margins: [ "0", "15px" ]
+layout: center
 layout: center

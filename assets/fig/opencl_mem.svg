@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg2003"
+   version="1.1"
+   viewBox="0 0 126.17595 80.848396"
+   height="80.848396mm"
+   width="126.17595mm">
+  <defs
+     id="defs1997" />
+  <metadata
+     id="metadata2000">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(606.61773,211.35872)"
+     id="layer1">
+    <path
+       d="m -602.52955,-150.27067 h 117.99963 v 8.99997 h -117.99963 z"
+       style="fill:none;stroke:#000000;stroke-width:0.17638844;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+       id="path64" />
+    <text
+       y="-144.92328"
+       x="-553.09583"
+       style="font-variant:normal;font-weight:normal;font-size:2.82220554px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.47036922"
+       id="text68">
+      <tspan
+         style="stroke-width:0.47036922"
+         x="-553.09583 -550.90015 -550.27362 -548.70447 -547.13531 -545.56616 -544.93683 -544.15228 -541.80133 -540.23218 -537.88129 -536.31213 -535.37238"
+         y="-144.92328"
+         id="tspan66">Global memory</tspan>
+    </text>
+    <g
+       id="g70"
+       transform="matrix(0.47036919,0,0,0.47036919,-599.52956,-239.62324)">
+      <path
+         d="m 0,141.06525 h 106.299 v 17.0079 H 0 Z"
+         style="fill:none;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+         id="path72" />
+      <text
+         transform="translate(34.31387,151.3725)"
+         style="font-variant:normal;font-weight:normal;font-size:5.99997997px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text76">
+        <tspan
+           x="0 3.335989 6.671978 9.6719675 13.007957 14.339952 16.007946 21.00593 24.341919 29.339903 32.675892 34.673885"
+           y="0"
+           id="tspan74">Local memory</tspan>
+      </text>
+      <g
+         id="g78"
+         transform="translate(4.25197,-48.89767)">
+        <path
+           d="M 0,128.30925 H 42.51968 V 158.073 H 0 Z"
+           style="fill:none;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+           id="path80" />
+        <text
+           transform="translate(11.92795,141.39)"
+           style="font-variant:normal;font-weight:normal;font-size:5.99997997px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text86">
+          <tspan
+             x="0 4.0019865 5.99998 7.3319755 10.331965 13.667954 15.335949 18.671938"
+             y="0"
+             id="tspan82">Private</tspan>
+          <tspan
+             x="-1.49999 3.4979932 6.833982 11.831965 15.167954 17.165947"
+             y="7.1999698"
+             id="tspan84">memory</tspan>
+        </text>
+        <g
+           id="g88"
+           transform="translate(-8.50395,70.15755)">
+          <path
+             d="M 0,49.64767 H 114.80325 V 158.07292 H 0 Z"
+             style="fill:none;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+             id="path90" />
+          <g
+             id="g92"
+             transform="translate(63.77955,-70.15755)">
+            <path
+               d="M 0,128.30925 H 42.51968 V 158.073 H 0 Z"
+               style="fill:none;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="path94" />
+            <text
+               transform="translate(11.92795,141.39)"
+               style="font-variant:normal;font-weight:normal;font-size:5.99997997px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text100">
+              <tspan
+                 x="0 4.0019865 5.99998 7.3319755 10.331965 13.667954 15.335949 18.671938"
+                 y="0"
+                 id="tspan96">Private</tspan>
+              <tspan
+                 x="-1.49999 3.4979932 6.833982 11.831965 15.167954 17.165947"
+                 y="7.1999698"
+                 id="tspan98">memory</tspan>
+            </text>
+            <g
+               id="g102"
+               transform="translate(-59.52757,25.512)">
+              <path
+                 d="m 0,98.5455 h 51.02363 v 59.52757 H 0 Z"
+                 style="fill:none;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                 id="path104" />
+              <g
+                 id="g106"
+                 transform="translate(55.27559)">
+                <path
+                   d="m 0,98.5455 h 51.02363 v 59.52757 H 0 Z"
+                   style="fill:none;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                   id="path108" />
+                <g
+                   id="g110"
+                   transform="translate(-57.40154,38.26755)">
+                  <text
+                     transform="translate(2.39999,155.61751)"
+                     style="font-variant:normal;font-weight:normal;font-size:5.99997997px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                     id="text114">
+                    <tspan
+                       x="0 5.5559816 8.8919706 10.889964 13.889954 15.887947 19.223936 21.22193 24.557919 27.893908"
+                       y="0"
+                       id="tspan112">Work-group</tspan>
+                  </text>
+                  <g
+                     id="g116"
+                     transform="translate(0,31.88977)">
+                    <path
+                       d="m 0,147.44325 h 55.2756 v 10.6299 H 0 Z"
+                       style="fill:none;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                       id="path118" />
+                    <text
+                       transform="translate(3.95998,154.56)"
+                       style="font-variant:normal;font-weight:normal;font-size:5.99997997px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                       id="text122">
+                      <tspan
+                         x="0 4.3319855 7.6679745 11.003963 14.003953 15.671947 19.007936 22.343925 24.011919 25.679914 30.677898 34.013885 39.011871 42.347858 44.345852"
+                         y="0"
+                         id="tspan120">Constant memory</tspan>
+                    </text>
+                    <g
+                       id="g124"
+                       transform="translate(6.37792,-78.66157)">
+                      <text
+                         transform="translate(7.59597,155.61751)"
+                         style="font-variant:normal;font-weight:normal;font-size:5.99997997px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                         id="text128">
+                        <tspan
+                           x="0 5.5559816 8.8919706 10.889964 13.889954 15.887947 17.219942 18.887938 22.223927"
+                           y="0"
+                           id="tspan126">Work-item</tspan>
+                      </text>
+                      <g
+                         id="g130"
+                         transform="translate(55.2756)">
+                        <text
+                           transform="translate(7.59597,155.61751)"
+                           style="font-variant:normal;font-weight:normal;font-size:5.99997997px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                           id="text134">
+                          <tspan
+                             x="0 5.5559816 8.8919706 10.889964 13.889954 15.887947 17.219942 18.887938 22.223927"
+                             y="0"
+                             id="tspan132">Work-item</tspan>
+                        </text>
+                        <g
+                           id="g136"
+                           transform="translate(72.2838,31.88992)">
+                          <path
+                             d="m 0,141.06525 h 106.299 v 17.0079 H 0 Z"
+                             style="fill:none;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                             id="path138" />
+                          <text
+                             transform="translate(34.31387,151.3725)"
+                             style="font-variant:normal;font-weight:normal;font-size:5.99997997px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text142">
+                            <tspan
+                               x="0 3.335989 6.671978 9.6719675 13.007957 14.339952 16.007946 21.00593 24.341919 29.339903 32.675892 34.673885"
+                               y="0"
+                               id="tspan140">Local memory</tspan>
+                          </text>
+                          <g
+                             id="g144"
+                             transform="translate(4.25174,-48.89767)">
+                            <path
+                               d="M 0,128.30925 H 42.51968 V 158.073 H 0 Z"
+                               style="fill:none;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                               id="path146" />
+                            <text
+                               transform="translate(11.92795,141.39)"
+                               style="font-variant:normal;font-weight:normal;font-size:5.99997997px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                               id="text152">
+                              <tspan
+                                 x="0 4.0019865 5.99998 7.3319755 10.331965 13.667954 15.335949 18.671938"
+                                 y="0"
+                                 id="tspan148">Private</tspan>
+                              <tspan
+                                 x="-1.49999 3.4979932 6.833982 11.831965 15.167954 17.165947"
+                                 y="7.1999698"
+                                 id="tspan150">memory</tspan>
+                            </text>
+                            <g
+                               id="g154"
+                               transform="translate(-8.50424,70.15755)">
+                              <path
+                                 d="M 0,49.64767 H 114.80325 V 158.07292 H 0 Z"
+                                 style="fill:none;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                                 id="path156" />
+                              <g
+                                 id="g158"
+                                 transform="translate(63.78,-70.15755)">
+                                <path
+                                   d="M 0,128.30925 H 42.51968 V 158.073 H 0 Z"
+                                   style="fill:none;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                                   id="path160" />
+                                <text
+                                   transform="translate(11.92795,141.39)"
+                                   style="font-variant:normal;font-weight:normal;font-size:5.99997997px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                                   id="text166">
+                                <tspan
+                                   x="0 4.0019865 5.99998 7.3319755 10.331965 13.667954 15.335949 18.671938"
+                                   y="0"
+                                   id="tspan162">Private</tspan>
+                                <tspan
+                                   x="-1.49999 3.4979932 6.833982 11.831965 15.167954 17.165947"
+                                   y="7.1999698"
+                                   id="tspan164">memory</tspan>
+                                </text>
+                                <g
+                                   id="g168"
+                                   transform="translate(-59.5275,25.512)">
+                                <path
+                                   d="m 0,98.5455 h 51.02363 v 59.52757 H 0 Z"
+                                   style="fill:none;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                                   id="path170" />
+                                <g
+                                   id="g172"
+                                   transform="translate(55.27498)">
+                                <path
+                                   d="m 0,98.5455 h 51.02363 v 59.52757 H 0 Z"
+                                   style="fill:none;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                                   id="path174" />
+                                <g
+                                   id="g176"
+                                   transform="translate(-57.40123,38.26755)">
+                                <text
+                                   transform="translate(2.39999,155.61751)"
+                                   style="font-variant:normal;font-weight:normal;font-size:5.99997997px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                                   id="text180">
+                                <tspan
+                                   x="0 5.5559816 8.8919706 10.889964 13.889954 15.887947 19.223936 21.22193 24.557919 27.893908"
+                                   y="0"
+                                   id="tspan178">Work-group</tspan>
+                                </text>
+                                <g
+                                   id="g182"
+                                   transform="translate(6.37799,-46.7718)">
+                                <text
+                                   transform="translate(7.59597,155.61751)"
+                                   style="font-variant:normal;font-weight:normal;font-size:5.99997997px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                                   id="text186">
+                                <tspan
+                                   x="0 5.5559816 8.8919706 10.889964 13.889954 15.887947 17.219942 18.887938 22.223927"
+                                   y="0"
+                                   id="tspan184">Work-item</tspan>
+                                </text>
+                                <g
+                                   id="g188"
+                                   transform="translate(55.27576)">
+                                <text
+                                   transform="translate(7.59597,155.61751)"
+                                   style="font-variant:normal;font-weight:normal;font-size:5.99997997px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                                   id="text192">
+                                <tspan
+                                   x="0 5.5559816 8.8919706 10.889964 13.889954 15.887947 17.219942 18.887938 22.223927"
+                                   y="0"
+                                   id="tspan190">Work-item</tspan>
+                                </text>
+                                <g
+                                   id="g194"
+                                   transform="translate(-206.22075,91.4175)">
+                                <path
+                                   d="M 0,0.75 H 267.87375 V 158.073 H 0 Z"
+                                   style="fill:none;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                                   id="path196" />
+                                <g
+                                   id="g198"
+                                   transform="translate(-0.375,0.375)" />
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text
+       y="-131.18315"
+       x="-533.10333"
+       id="text204"
+       style="font-variant:normal;font-weight:bold;font-size:3.17499995px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775">
+      <tspan
+         id="tspan202"
+         y="-131.18315"
+         x="-533.10333 -531.16339 -530.28076 -528.34082 -526.40088 -525.16583 -523.40051 -522.51788 -520.75256 -519.69531 -517.92999 -516.16467 -513.69452 -511.75461 -509.98932 -508.04938 -505.75705 -503.81711 -502.93445 -500.11191 -498.34659 -495.52402 -493.58408 -492.349 -490.58371 -489.70105 -486.87848 -484.93857 -482.99866 -481.23334"
+         style="stroke-width:0.35277775">Figure 3-3 OpenCL memory model</tspan>
+    </text>
+  </g>
+</svg>

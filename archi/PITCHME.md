@@ -79,15 +79,19 @@ draw it on board
 [drag=70 100, drop=right]
 ![width=1000](assets/fig/ddr_bank.svg)
 ---
-[drag=30 100, drop=left, bg=#0B5D8C, fit=1.4, set=text-white]
-- DRAM Operation: Banks 
-[drag=70 100, drop=right]
-![width=1500](assets/fig/ddr.svg)
----
+
 ### DRAM Operation: DRAM Operation
 * READ: Activate (open the row)-> Read -> Precharge (close).
 * WRITE: Activate (open the row)-> Write -> Precharge (close).
 * REFRESH: READ-> WRITE back.
+---
+### DRAM Traffic TCL,TRCD,TRP
+![width=1500](assets/fig/dram.svg)
+---
+[drag=30 100, drop=left, bg=#0B5D8C, fit=1.4, set=text-white]
+- DRAM Operation: Banks 
+[drag=70 100, drop=right]
+![width=1500](assets/fig/ddr.svg)
 ---
 ### DRAM Traffic TCL,TRCD,TRP
 ![width=1500](assets/fig/dram.svg)

@@ -3,81 +3,160 @@
 
 ---
 ### OpenCL Programming Model
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/oclflow.svg" height="400"/>
-
-+++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
+![width=1200, border=10px solid black](assets/oclflow.svg)
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/hello_world.c)
+[drag=30 10, drop=topright, font=bubblegum]
 @[7-11](The OpenCL kernel.)
 @[37](Get Platform Ids.)
-+++?code=ocl_syntax/src/clGetPlatformIDs.c&lang=c&title=clGetPlatformIDs
+---
 
-+++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
+
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/clGetPlatformIDs.c)
+---
+
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/hello_world.c)
+[drag=30 10, drop=topright, font=bubblegum]
 @[38-46](Get Platform Info.)
-+++?code=ocl_syntax/src/clGetPlatformInfo.c&lang=c&title=clGetPlatformInfo
-
-
-+++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/clGetPlatformInfo.c)
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/hello_world.c)
+[drag=30 10, drop=topright, font=bubblegum]
 @[49](Get Device Ids)
-+++?code=ocl_syntax/src/clGetDeviceIDs.c&lang=c&title=clGetDeviceIDs
-
-+++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/clGetDeviceIDs.c)
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/hello_world.c)
+[drag=30 10, drop=topright, font=bubblegum]
 @[50](Create Context)
-+++?code=ocl_syntax/src/clCreateContext.c&lang=c&title=clCreateContext
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/clCreateContext.c)
+---
 
-+++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/hello_world.c)
+[drag=30 10, drop=topright, font=bubblegum]
 @[52](Create Command Queues)
-+++?code=ocl_syntax/src/clCreateCommandQueue.c&lang=c&title=clCreateCommandQueue
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/clCreateCommandQueue.c)
+---
 
-+++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/hello_world.c)
+[drag=30 10, drop=topright, font=bubblegum]
 @[53](Create Program from Source)
 @[7-11](The OpenCL kernel source code pointed to by *opencl*.)
-+++?code=ocl_syntax/src/clCreateProgramWithSource.c&lang=c&title=clCreateProgramWithSource
-
-+++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/clCreateProgramWithSource.c)
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/hello_world.c)
+[drag=30 10, drop=topright, font=bubblegum]
 @[60](Build Program)
-+++?code=ocl_syntax/src/clBuildProgram.c&lang=c&title=clBuildProgram
-
-+++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/clBuildProgram.c)
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/hello_world.c)
+[drag=30 10, drop=topright, font=bubblegum]
 @[61](Create Kernel!! Finally gettiing down to buisness)
-+++?code=ocl_syntax/src/clCreateKernel.c&lang=c&title=clCreateKernel
-
-+++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/clCreateKernel.c)
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/hello_world.c)
+[drag=30 10, drop=topright, font=bubblegum]
 @[62](Enqueue the Kernel in the queue)
-+++?code=ocl_syntax/src/clEnqueueTask.c&lang=c&title=clEnqueueTask
-
-+++?code=ocl_syntax/src/hello_world.c&lang=c&title=Hello World
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/clEnqueueTask.c)
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/hello_world.c)
+[drag=50 10, drop=topright, font=bubblegum, fit=0.5]
 @[64-68](Tear Down)
 https://www.khronos.org/registry/OpenCL/sdk/1.2/
 ---
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/oclflow.svg" height="400"/>
+
+
+
+
+
+
+
+
+### OpenCL Programming Model
+![width=1200, border=10px solid black](assets/oclflow.svg)
 ---
 ### OpenCL Memory Model
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/opencl_mem.svg" height="400"/>
+![width=1200, border=10px solid black](assets/fig/opencl_mem.svg)
 ---
 ### OpenCL Work Items
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/work_items.svg" height="400"/>
-+++?code=ocl_syntax/src/vector_add.cpp&lang=c&title=Vector Addition
+![width=1200, border=10px solid black](assets/fig/work_items.svg)
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/vector_add.cpp)
+[drag=30 10, drop=topright, font=bubblegum]
+(Vector Addition)
 @[118](Creating Context)
 @[119](Creating Command Queue)
-@[119](Creating Command Queue)
-@[129](Build Program)
-@[131](Create Kernel)
-+++?code=ocl_syntax/src/vector_add.cpp&lang=c&title=Creating CL Buffers
-@[133-134](Creating CL Buffers input (read))
-@[137-138](Creating CL Buffers input (read))
-@[142-143](Creating CL Buffers output (write))
-+++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Copying Host Buffers to CL buffers
-@[153-155](input_a: Host Buffer, input_a_buf: CL Buffer)
-@[157-159](input_b: Host Buffer,input_b_buf: CL Buffer)
-+++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Setting Kernel Arguments
-@[164-173](Setting Kernel Arguments)
-+++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Launching Job
-@[174-177](clEnqueueNDRangeKernel)
-+++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Reading back the result.
-@[178-181](output: Host Buffer,output_buf: CL Buffer)
-+++?code=ocl_syntax/src/vector_add.cpp&lang=c&title= Reading back the result.
-@[206-208](Query for the maximum work group size)
+@[128](Build Program)
+@[130](Create Kernel)
 ---
-+++?code=ocl_syntax/src/snippets.cpp&lang=c&title=Snippets
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/vector_add.cpp)
+[drag=30 10, drop=topright, font=bubblegum]
+(CL Buffers)
+@[132-134](Creating CL Buffers input (read))
+@[136-138](Creating CL Buffers input (read))
+@[141-143](Creating CL Buffers output (write))
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/vector_add.cpp)
+[drag=50 20, drop=topright, font=bubblegum fit=0.5]
+(Copying Host Buffers to CL buffers)
+@[152-155](input_a: Host Buffer, input_a_buf: CL Buffer)
+@[156-159](input_b: Host Buffer,input_b_buf: CL Buffer)
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/vector_add.cpp)
+[drag=30 10, drop=topright, font=bubblegum]
+(Setting Kernel Arguments)
+@[163-171](Setting Kernel Arguments)
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/vector_add.cpp)
+[drag=30 10, drop=topright, font=bubblegum]
+(Launching Job)
+@[173-175](clEnqueueNDRangeKernel)
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/vector_add.cpp)
+[drag=30 10, drop=topright, font=bubblegum]
+(Reading back the result.)
+@[177-181](output: Host Buffer,output_buf: CL Buffer)
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/vector_add.cpp)
+[drag=30 10, drop=topright, font=bubblegum]
+@[204-207](Query for the maximum work group size)
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/snippets.cpp)
+[drag=30 10, drop=topright, font=bubblegum]
 @[86-97](Create Buffer in the Host Accesible Memory)
 @[99-111](Map to host virtual address space)
 @[115-117](Wait for a Prticular Event)
@@ -139,7 +218,10 @@ https://www.khronos.org/registry/OpenCL/sdk/1.2/
 		before starting the commands after barrier.
 
 ---
-+++?code=ocl_syntax/src/optimized.cl&lang=c&title=Vector Operations
+[drag=99, drop=center, fit=0.8]
+@code[c](ocl_syntax/src/optimized.cl)
+[drag=30 10, drop=topright, font=bubblegum]
+(Vector Operations)
 @[9-12](Vector-4  load )
 @[13-14](Dot Operations)
 ---
@@ -148,7 +230,7 @@ https://www.khronos.org/assets/uploads/developers/library/2012-pan-pacific-road-
 https://www.khronos.org/registry/OpenCL/sdk/1.2/
 ---
 ### Debugger: MGD
-* in a405-xx.enst.fr (desktop) clone the git depot.
+* in tp-3a209-xx.enst.fr (desktop) clone the git depot.
 * source init.sh > /dev/null
 * module load mali/4.4
 * mgd
@@ -161,7 +243,7 @@ https://www.khronos.org/registry/OpenCL/sdk/1.2/
 ### Performance Monitor: Streamline
 * run start_gator.sh in tpt39/
 	* cd tpt39; ./start_gator.sh&
-* in a405-XX.enst.fr
+* in tp-3a209-XX.enst.fr
 	* $ source init.sh
 	* $ module load mali/4.4
 	* $ streamline
