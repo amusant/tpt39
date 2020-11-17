@@ -1,5 +1,5 @@
 ### Accelerator Design with OpenCL
-##### (Athens Week 18-22 Nov, 2019) 
+##### (Athens Week 16-20 Nov, 2020) 
 
 ---
 ### OpenCL Programming Model
@@ -197,7 +197,7 @@ https://www.khronos.org/registry/OpenCL/sdk/1.2/
 
 ---
 ### Mapping of Work Items
-<img src="assets/exec_model.png" height="400"/>
+![width=1200, border=10px solid black](assets/exec_model.png)
 ---
 ### Synchronization Functions: Mem Fence
 - mem_fence: all memory accesses preceding mem_fence must end before starting memory accesses following mem_fence. |
