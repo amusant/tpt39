@@ -100,6 +100,7 @@ to understand the context first
 *  There will be a multiple-choice quiz on friday. (10)
 
 ---
+[drag=30, drop=0 0]
 ### Let's Setup
 * PCs in this lab  tp-3B01-xx.enst.fr 
 * you can change the default language at the startup screen. 

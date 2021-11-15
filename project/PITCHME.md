@@ -1,5 +1,5 @@
 ### Accelerator Design with OpenCL
-##### (Athens Week 19-24 March, 2018) 
+##### (Athens Week 18-22 Nov, 2019) 
 ---
 ### What do we know so far ?
 - There are three types of parallelism |
@@ -27,7 +27,8 @@
 - We saw a SoC archietcture with and some deatils about Mali T628. |
 - We know how to launch a OpenCL kernel |
 	- Platfrom-> Device-> Context-> Command Queue -> compile kernel |
-	- Create Buffers-> Pass Buffers to GPU  |
+	- Create Buffers-> Copy Buffers from CPU to  GPU  |
+	- Create Buffers-> Map Buffers  |
 	- Launch Kernel-> readback result buffers |
 ---
 ### What do we know so far ?
@@ -44,13 +45,13 @@
 - Vector addition with size N 
 - Calculate speedup with varying N.
 - Measure Flops/s.
-- Calculate the average of a vector.
-- Calculate the average of a vector using workgroups.
 - Measure speedup.
 ---
 ### LAB WORK 2
 - Write a Matrix multiplication routing with two matrices of size M x K, K x N.
 - where M=K=N
+- measure speed up
+- Do matrix multiplication using workgroups.
 - measure speed up
 - use streamline to see various statistics about Cache/TLB miss.
 - Measure Flops/S.
@@ -66,7 +67,7 @@
 ---
 ### Project: Useful functions
 * to copy opencv mat to  an array:
-	* memcpy(cameraFrame.data, input, 3\*ROWS\*COLS\*sizeof(char));
+	* memcpy(input,cameraFrame.data, 3\*ROWS\*COLS\*sizeof(char));
 * to pad:
 	- copyMakeBorder( src, dst, top, bottom, left, right, borderType, value );
 	- <span style="font-size:0.4em">https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/copyMakeBorder/copyMakeBorder.html
@@ -77,10 +78,21 @@
 * Mat Convert data type:
 	- <span style="font-size:0.4em">https://docs.opencv.org/2.4/modules/core/doc/basic_structures.html#mat-convertto
 ---
+### Project: 
+* Can do direct convolution.
+* Can do im2col + Matrix multiplication.
+* Try processing in Batches to reduce OpennCL launching overhead.
+* Get performance statistics.
+---
+### Project/Lab works
+* git clone git@github.com:amusant/tpt39.git
+* use sshfs to mirror the same directory on both desktop and GPU card.
+	* sshfs odroid@[odroid-ip]:~/tpt39 ./tpt39
+---
 ### Debugger: MGD
-* in a405-xx.enst.fr (desktop) clone the git depot.
-* source init.sh > /dev/null
-* module load mali/4.4
+* in tp-3a209-XX.enst.fr (desktop) clone the git depot. 
+* you can also use  the sshfs with the odroid board.
+* source init.sh 
 * mgd
 
 	* in odroid
@@ -89,12 +101,14 @@
 	* make debug
 ---
 ### Performance Monitor: Streamline
-* run start_gator.sh in tpt39/
-	* cd tpt39; ./start_gator.sh&
-* in a405-XX.enst.fr
+
+*  in odroid  run start_gator.sh in tpt39/
+	* cd tpt39; ./start_gator_on_odroid.sh&
+* in tp-3a209-XX.enst.fr
 	* $ source init.sh
-	* $ module load mali/4.4
 	* $ streamline
 ---
-### Domain Specific Architecture
 
+@css[title-top-right](Mythbusters Demo GPU versus CPU)
+
+![Gravity](https://www.youtube.com/embed/-P28LKWTzrI)

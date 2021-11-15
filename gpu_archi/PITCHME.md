@@ -1,5 +1,5 @@
 ### Accelerator Design with OpenCL
-##### (Athens Week 19-24 March, 2018) 
+##### (Athens Week 18-22 March, 2019) 
 ---
 ### What do we know so far ?
 - There are three types of parallelism |
@@ -20,7 +20,7 @@
 - And we said hello to the world from our GPU (Mali-T628). |
 ---
 ### GPU Architecture : Uniprocessor
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/uniprocessor.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/uniprocessor.svg" height="400"/>
 ---
 ### GPU Architecture : Evolution
 
@@ -30,42 +30,42 @@
 - So are the solutions to hide them. |
 ---
 ### GPU Architecture : MIMD
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_mimd.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_mimd.svg" height="400"/>
 --- 
 GPU Architecture : Evolution
 * MIMD, but wait, we don't need the mutliple-instruction streams. |
 * let' get rid of them. |
 ---
 ### GPU Architecture : SIMD
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_simd1.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_simd1.svg" height="400"/>
 ---
 ### GPU Architecture : More SIMD
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_simd2.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_simd2.svg" height="400"/>
 ---
 ### GPU Architecture : More SIMD
 - Let's not forget our old friend Multi-Threading.
 - Which helped us manage latency.
 ---
 ### GPU Architecture : SIMD with multi-threading.
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_simd3.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_simd3.svg" height="400"/>
 ---
 ### Quiz 
 * What is the peak performance of this core in Gflops ?
 ---
 ### GPU Architecture : Refinements
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_refined.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_refined.svg" height="400"/>
 ---
 ### GPU Architecture : Refinements
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_refined_cache.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_refined_cache.svg" height="400"/>
 - The context memory is configurable for different number of threads.
 - Adding Cache is helpful.
 ---
 ### GPU Architecture : Refinements
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_refined_cache_sp.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_refined_cache_sp.svg" height="400"/>
 - Adding Scratchpad memory, so that threads can communicate locally.
 ---
 ### GPU: Multiple Shader Cores
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/fig/gpu_refined_multi.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_refined_multi.svg" height="400"/>
 ---
 ### Our GPU : Mali T628
 - ARM MidGard family.
@@ -81,43 +81,27 @@ GPU Architecture : Evolution
 - <span style="font-size:0.4em">https://community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-3---the-midgard-shader-core 
 - <span style="font-size:0.4em">https://community.arm.com/graphics/f/discussions/6557/mali-t628-gpu-activity-in-streamline 
 ---
+### Mali Midgard Arithmetic Pipeline
+<img src="assets/Mali_SIMD_575px.png" height="400"/>
+---
+### Mali Midgard Arithmetic Pipeline
+<img src="assets/Midgard_Arithmetic_Pipe_575px.png" height="400"/>
+---
+### Our GPU : Mali T628
+- Each Thread has its own Program Counter. -> they can diverge.
+- Total no. of threads is limited by configurable register space.
+- Find out the maximum no. threads that can be mapped to a core.
+- There is no local (scratchpad) memory.  
+- Each core has it's own L1 Cache.  
+- for more info 
+	- <span style="font-size:0.4em">https://www.iwocl.org/wp-content/uploads/iwocl-2014-workshop-Tim-Hartley.pdf
+
+---
 ### Example Heterogeneous SoCs
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/tpt39/acecontext.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/acecontext.svg" height="400"/>
 ---
-### Expressing Paralleism
-- NDRangeKernel |
-- global_work_size() defines that total no. of elements. |
-- if each element is independent it is also the number of work_items. |
-- each work item can be associated with one thread. |
----
-### Expressing Paralleism
-- the global work can be separated into groups.
-- get_group_id() gives the id of the group. 
-- get_local_id() gives the id of the local work item within the group.
----
-
-### Work Item Related Functions:
-- get_work_dim()
-- get_global_size()
-- get_global_id()
-- get_local_size()
-- get_local_id()
-- get_num_groups()
-- get_group_id()
-- get_global_offset() 
-
----
-### Synchronization Functions: Mem Fence
-- mem_fence: all memory accesses preceding mem_fence must end before starting memory accesses following mem_fence. |
-- read_mem_fence : only for loads. |
-- write_mem_fence: only for stores. | 
-	- arguments: CLK_LOCAL_MEM_FENCE: only load/stores to local memory. |
-	- arguments: CLK_GLOBAL_MEM_FENCE: only load/stores to global memory. |
----
-### Synchronization Functions: Barrier
-* All work-items in a work-group  must execute this function before the work group can proceed. |
-* Barrier also issues a mem_fence either to CLK_LOCAL_MEM_FENCE or CLK_GLOBAL_MEM_FENCE. |
-* There is no way to synchronize work items in different work groups. |
+### Our SoC Exynos 5422
+<img src="assets/odroid.png" height="400"/>
 ---
 ### LAB WORK 1
 - Vector addition with size N 

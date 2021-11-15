@@ -1,3 +1,17 @@
+gitpitch: 4.0
+theme:night
 theme-override : assets/css/PITCHME.css 
 mathjax : TeX-MML-AM_HTMLorMML-full
 transition: none
+
+theme-background: [ "#000000" ]
+theme-headline: [ "Montserrat", "#FBD95E", "none", "#FFFFFF", "100", "130", "15" ]
+theme-byline: [ "Montserrat", "#FFFFFF", "none", "#FBD95E", "100", "120", "15" ]
+theme-text: [ "Ubuntu", "#FFFFFF", "none", "#A0C865", "100", "110", "15" ]
+theme-links: [ "#5289F7", "#5254F7" ]
+theme-code: [ "Source Code Pro", "100", "120" ]
+highlight: atom-one-light
+theme-controls: [ "#C0C0C0" ]
+theme-margins: [ "0", "15px" ]
+layout: center
+layout: center
